@@ -1,0 +1,2455 @@
+        -:    0:Source:/mnt/c/Users/Laura/CLionProjects/lab_8-9/UI.cpp
+        -:    0:Graph:/mnt/c/Users/Laura/CLionProjects/lab_8-9/cmake-build-wsl_profile-coverage/CMakeFiles/untitled.dir/UI.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Laura/CLionProjects/lab_8-9/cmake-build-wsl_profile-coverage/CMakeFiles/untitled.dir/UI.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Laura on 4/8/2022.
+        -:    3://
+        -:    4:
+        -:    5:#include "UI.h"
+        -:    6:#include <iostream>
+        -:    7:
+        -:    8:using namespace std;
+function _ZN9ConsoleUI9printMenuEv called 1 returned 100% blocks executed 100%
+        1:    9:void ConsoleUI::printMenu() {
+        1:   10:    cout << "COMENZI DISPONIBILE:" << endl;
+        1:   10-block  0
+call    0 returned 1
+call    1 returned 1
+        1:   11:    cout << "1.AFISEAZA produsele." << endl;
+call    0 returned 1
+call    1 returned 1
+        1:   12:    cout << "2. ADAUGA produs." << endl;
+call    0 returned 1
+call    1 returned 1
+        1:   13:    cout << "3.CAUTA un anumit produs." << endl;
+call    0 returned 1
+call    1 returned 1
+        1:   14:    cout << "4.RANDOMIZE adaugare produse." << endl;
+call    0 returned 1
+call    1 returned 1
+        1:   15:    cout << "5.STERGE un anumit produs." << endl;
+call    0 returned 1
+call    1 returned 1
+        1:   16:    cout << "6.MODIFICATI pretul unui anumit produs" << endl;
+call    0 returned 1
+call    1 returned 1
+        1:   17:    cout << "7.FILTRATI produse dupa un anumit criteriu" << endl;
+call    0 returned 1
+call    1 returned 1
+        1:   18:    cout << "8.SORTARE produse" << endl;
+call    0 returned 1
+call    1 returned 1
+        1:   19:    cout<<"9.COS PRODUSE MENIU"<<endl;
+call    0 returned 1
+call    1 returned 1
+        1:   20:    cout<<"10.DTO"<<endl;
+call    0 returned 1
+call    1 returned 1
+        1:   21:    cout << "0.EXIT" << endl;
+call    0 returned 1
+call    1 returned 1
+        1:   22:}
+        -:   23:
+function _ZN9ConsoleUI13printListMenuEv called 0 returned 0% blocks executed 0%
+    #####:   24:void ConsoleUI::printListMenu() {
+    #####:   25:    cout << "MENIU COS DE CUMPARATURI"<< endl;
+    %%%%%:   25-block  0
+call    0 never executed
+call    1 never executed
+    #####:   26:    cout << "1. Adauga produs in cos" << endl;
+call    0 never executed
+call    1 never executed
+    #####:   27:    cout << "2. Adauga produse random in cos" << endl;
+call    0 never executed
+call    1 never executed
+    #####:   28:    cout << "3. Goleste cosul" << endl;
+call    0 never executed
+call    1 never executed
+    #####:   29:    cout << "4. Afiseaza cosul curent" << endl;
+call    0 never executed
+call    1 never executed
+    #####:   30:    cout << "5. Inapoi la meniul principal" << endl;
+call    0 never executed
+call    1 never executed
+    #####:   31:}
+        -:   32:
+function _ZN9ConsoleUI5uiAddEv called 0 returned 0% blocks executed 0%
+    #####:   33:void ConsoleUI::uiAdd() {
+    #####:   34:    string nume,tip,producator;
+    %%%%%:   34-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+    %%%%%:   34-block  1
+call    3 never executed
+call    4 never executed
+call    5 never executed
+    $$$$$:   34-block  2
+call    6 never executed
+    $$$$$:   34-block  3
+call    7 never executed
+    $$$$$:   34-block  4
+call    8 never executed
+        -:   35:    double pret;
+    #####:   36:    cout << "Numele produsului este:";
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   37:    getline(cin >> ws, nume);
+    %%%%%:   37-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   37-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        -:   38:
+    #####:   39:    cout << "Tipul produsului este:";
+    %%%%%:   39-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   40:    getline(cin >> ws, tip);
+    %%%%%:   40-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   40-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   41:    cout << "Producatorul produsului este:";
+    %%%%%:   41-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   42:    getline(cin >> ws, producator);
+    %%%%%:   42-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   42-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        -:   43:
+    #####:   44:    cout << "Pretul produsului (numar real>0) este:";
+    %%%%%:   44-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   45:    cin >> pret;
+    %%%%%:   45-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   46:    try {
+    #####:   47:        srv.addservice(nume,tip,producator,pret);
+    %%%%%:   47-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   47-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   47-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   47-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   47-block  4
+call   12 never executed
+call   13 never executed
+call   14 never executed
+    $$$$$:   47-block  5
+call   15 never executed
+    $$$$$:   47-block  6
+    $$$$$:   47-block  7
+call   16 never executed
+    $$$$$:   47-block  8
+    $$$$$:   47-block  9
+call   17 never executed
+    $$$$$:   47-block 10
+    #####:   48:        cout << "Produsul a fost adaugat cu succes." << endl;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   48-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        -:   49:    }
+    =====:   50:    catch (RepoExcep& re) {
+    $$$$$:   50-block  0
+call    0 never executed
+    $$$$$:   50-block  1
+call    1 never executed
+    =====:   51:        cout << re.getErrorMessage();
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   51-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   51-block  1
+call    6 never executed
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   51-block  2
+call   10 never executed
+    $$$$$:   51-block  3
+        -:   52:    }
+    =====:   53:    catch (ValidationExcep& ve) {
+    $$$$$:   53-block  0
+call    0 never executed
+    $$$$$:   53-block  1
+call    1 never executed
+    =====:   54:        cout << "Produsul nu este valid!" << endl;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   54-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    =====:   55:        cout << ve.getErrorMessages();
+    $$$$$:   55-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   55-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   55-block  2
+call    6 never executed
+call    7 never executed
+    $$$$$:   55-block  3
+call    8 never executed
+    $$$$$:   55-block  4
+        -:   56:    }
+        -:   57:
+    #####:   58:}
+        -:   59:
+function _ZN9ConsoleUI6uiDellEv called 0 returned 0% blocks executed 0%
+    #####:   60:void ConsoleUI::uiDell() {
+    #####:   61:    string nume, tip, producator;
+    %%%%%:   61-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+    %%%%%:   61-block  1
+call    3 never executed
+call    4 never executed
+call    5 never executed
+    $$$$$:   61-block  2
+call    6 never executed
+    $$$$$:   61-block  3
+call    7 never executed
+    $$$$$:   61-block  4
+call    8 never executed
+        -:   62:    double pret;
+    #####:   63:    cout << "Numele produsului pe care doriti sa il stergeti  este:";
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   64:    getline(cin >> ws, nume);
+    %%%%%:   64-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   64-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        -:   65:
+    #####:   66:    cout << "Tipul produsului pe care doriti sa il stergeti este:";
+    %%%%%:   66-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   67:    getline(cin >> ws, tip);
+    %%%%%:   67-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   67-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   68:    cout << "Producatorul produsului este:";
+    %%%%%:   68-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   69:    getline(cin >> ws, producator);
+    %%%%%:   69-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   69-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        -:   70:
+    #####:   71:    cout << "Pretul produsului (numar real>0) este:";
+    %%%%%:   71-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   72:    cin >> pret;
+    %%%%%:   72-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   73:    try {
+    #####:   74:        srv.dellservice(nume, tip, producator, pret);
+    %%%%%:   74-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   74-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   74-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   74-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   74-block  4
+call   12 never executed
+call   13 never executed
+call   14 never executed
+    $$$$$:   74-block  5
+call   15 never executed
+    $$$$$:   74-block  6
+    $$$$$:   74-block  7
+call   16 never executed
+    $$$$$:   74-block  8
+    $$$$$:   74-block  9
+call   17 never executed
+    $$$$$:   74-block 10
+    #####:   75:        cout << "Produsul a fost sters cu succes." << endl;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   75-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        -:   76:    }
+    =====:   77:    catch (RepoExcep& re) {
+    $$$$$:   77-block  0
+call    0 never executed
+    $$$$$:   77-block  1
+call    1 never executed
+    =====:   78:        cout << re.getErrorMessage();
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   78-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   78-block  1
+call    6 never executed
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   78-block  2
+call   10 never executed
+    $$$$$:   78-block  3
+        -:   79:    }
+    =====:   80:    catch (ValidationExcep& ve) {
+    $$$$$:   80-block  0
+call    0 never executed
+    $$$$$:   80-block  1
+call    1 never executed
+    =====:   81:        cout << "Produsul nu este valid!" << endl;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   81-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    =====:   82:        cout << ve.getErrorMessages();
+    $$$$$:   82-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   82-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   82-block  2
+call    6 never executed
+call    7 never executed
+    $$$$$:   82-block  3
+call    8 never executed
+    $$$$$:   82-block  4
+        -:   83:    }
+        -:   84:
+    #####:   85:}
+        -:   86:
+function _ZN9ConsoleUI8uiModifyEv called 0 returned 0% blocks executed 0%
+    #####:   87:void ConsoleUI::uiModify() {
+    #####:   88:    string nume, tip, producator;
+    %%%%%:   88-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+    %%%%%:   88-block  1
+call    3 never executed
+call    4 never executed
+call    5 never executed
+    $$$$$:   88-block  2
+call    6 never executed
+    $$$$$:   88-block  3
+call    7 never executed
+    $$$$$:   88-block  4
+call    8 never executed
+        -:   89:    //string pret;
+        -:   90:    double pretnou;
+    #####:   91:    cout << "Numele produsului pe care doriti sa il modificati  este:";
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   92:    getline(cin >> ws, nume);
+    %%%%%:   92-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   92-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        -:   93:
+    #####:   94:    cout << "Tipul produsului pe care doriti sa il modificati este:";
+    %%%%%:   94-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   95:    getline(cin >> ws, tip);
+    %%%%%:   95-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   95-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   96:    cout << "Producatorul produsului este:";
+    %%%%%:   96-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   97:    getline(cin >> ws, producator);
+    %%%%%:   97-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   97-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        -:   98:
+        -:   99:
+    #####:  100:    cout << " Pretul nou al produsului: ";
+    %%%%%:  100-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  101:    cin >> pretnou;
+    %%%%%:  101-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  102:    //getline(cin >> ws, pret);
+        -:  103:    //pretnou = stod(pret);
+        -:  104:    try {
+    #####:  105:        srv.modifyservice(nume, tip, producator, pretnou);
+    %%%%%:  105-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  105-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  105-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  105-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  105-block  4
+call   12 never executed
+call   13 never executed
+call   14 never executed
+    $$$$$:  105-block  5
+call   15 never executed
+    $$$$$:  105-block  6
+    $$$$$:  105-block  7
+call   16 never executed
+    $$$$$:  105-block  8
+    $$$$$:  105-block  9
+call   17 never executed
+    $$$$$:  105-block 10
+    #####:  106:        cout << "Produsul a fost fost modificat cu succes." << endl;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  106-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        -:  107:    }
+    =====:  108:    catch (RepoExcep& re) {
+    $$$$$:  108-block  0
+call    0 never executed
+    $$$$$:  108-block  1
+call    1 never executed
+    =====:  109:        cout << re.getErrorMessage();
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:  109-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  109-block  1
+call    6 never executed
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  109-block  2
+call   10 never executed
+    $$$$$:  109-block  3
+        -:  110:    }
+    =====:  111:    catch (ValidationExcep& ve) {
+    $$$$$:  111-block  0
+call    0 never executed
+    $$$$$:  111-block  1
+call    1 never executed
+    =====:  112:        cout << "Produsul nu este valid!" << endl;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:  112-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    =====:  113:        cout << ve.getErrorMessages();
+    $$$$$:  113-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:  113-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  113-block  2
+call    6 never executed
+call    7 never executed
+    $$$$$:  113-block  3
+call    8 never executed
+    $$$$$:  113-block  4
+        -:  114:    }
+        -:  115:
+    #####:  116:}
+        -:  117:
+        -:  118:
+function _ZN9ConsoleUI6uiFindEv called 0 returned 0% blocks executed 0%
+    #####:  119:void ConsoleUI::uiFind() {
+    #####:  120:    string nume, producator;
+    %%%%%:  120-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+call    3 never executed
+    $$$$$:  120-block  1
+call    4 never executed
+    $$$$$:  120-block  2
+call    5 never executed
+    #####:  121:    Produs prod;
+call    0 never executed
+    %%%%%:  121-block  0
+call    1 never executed
+    $$$$$:  121-block  1
+call    2 never executed
+    #####:  122:    cout << "Numele produsului pe care il cautati este:";
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  123:    getline(cin >> ws, nume);
+    %%%%%:  123-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  123-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        -:  124:
+    #####:  125:    cout << "Producatorul produsului pe care il cautati este:";
+    %%%%%:  125-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  126:    getline(cin >> ws, producator);
+    %%%%%:  126-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  126-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        -:  127:
+        -:  128:    try {
+    #####:  129:        prod = srv.findservice(nume, producator);
+    %%%%%:  129-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  129-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  129-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  129-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  129-block  4
+call   12 never executed
+call   13 never executed
+call   14 never executed
+    $$$$$:  129-block  5
+call   15 never executed
+    $$$$$:  129-block  6
+    $$$$$:  129-block  7
+call   16 never executed
+    $$$$$:  129-block  8
+    $$$$$:  129-block  9
+call   17 never executed
+    $$$$$:  129-block 10
+    #####:  130:        cout << "NUME: " << prod.getNume() << " | TIP: " << prod.getTip() << " | PRODUCATOR: " << prod.getProd() << " | PRET: " << prod.getPret() << endl;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  130-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  130-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  130-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  130-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:  130-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:  130-block  5
+call   18 never executed
+branch 19 never executed
+branch 20 never executed
+    %%%%%:  130-block  6
+call   21 never executed
+branch 22 never executed
+branch 23 never executed
+    %%%%%:  130-block  7
+call   24 never executed
+branch 25 never executed
+branch 26 never executed
+    %%%%%:  130-block  8
+call   27 never executed
+branch 28 never executed
+branch 29 never executed
+    %%%%%:  130-block  9
+call   30 never executed
+call   31 never executed
+branch 32 never executed
+branch 33 never executed
+    %%%%%:  130-block 10
+call   34 never executed
+branch 35 never executed
+branch 36 never executed
+    %%%%%:  130-block 11
+call   37 never executed
+call   38 never executed
+call   39 never executed
+    $$$$$:  130-block 12
+call   40 never executed
+    $$$$$:  130-block 13
+    $$$$$:  130-block 14
+call   41 never executed
+    $$$$$:  130-block 15
+    $$$$$:  130-block 16
+call   42 never executed
+    $$$$$:  130-block 17
+        -:  131:    }
+    =====:  132:    catch (RepoExcep& re) {
+    $$$$$:  132-block  0
+call    0 never executed
+    $$$$$:  132-block  1
+call    1 never executed
+    =====:  133:        cout << re.getErrorMessage();
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:  133-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  133-block  1
+call    6 never executed
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  133-block  2
+call   10 never executed
+    $$$$$:  133-block  3
+        -:  134:    }
+    =====:  135:    catch (ValidationExcep& ve) {
+    $$$$$:  135-block  0
+call    0 never executed
+    $$$$$:  135-block  1
+call    1 never executed
+    =====:  136:        cout << "datele nu sunt valide!" << endl;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:  136-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    =====:  137:        cout << ve.getErrorMessages();
+    $$$$$:  137-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:  137-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  137-block  2
+call    6 never executed
+call    7 never executed
+    $$$$$:  137-block  3
+call    8 never executed
+    $$$$$:  137-block  4
+        -:  138:    }
+        -:  139:
+    #####:  140:}
+        -:  141:
+function _ZN9ConsoleUI11uiRandomizeEv called 0 returned 0% blocks executed 0%
+    #####:  142:void ConsoleUI::uiRandomize() {
+    #####:  143:    srv.addservice("masca", "cosmetic", "the body shop", 80.5);
+    %%%%%:  143-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    %%%%%:  143-block  1
+call    4 never executed
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  143-block  2
+call    8 never executed
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  143-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:  143-block  4
+call   15 never executed
+call   16 never executed
+call   17 never executed
+call   18 never executed
+call   19 never executed
+call   20 never executed
+    $$$$$:  143-block  5
+call   21 never executed
+    $$$$$:  143-block  6
+    $$$$$:  143-block  7
+call   22 never executed
+    $$$$$:  143-block  8
+    $$$$$:  143-block  9
+call   23 never executed
+    $$$$$:  143-block 10
+    $$$$$:  143-block 11
+call   24 never executed
+    $$$$$:  143-block 12
+    $$$$$:  143-block 13
+call   25 never executed
+    $$$$$:  143-block 14
+    $$$$$:  143-block 15
+call   26 never executed
+    $$$$$:  143-block 16
+call   27 never executed
+    #####:  144:    srv.addservice("paine", "alimentar", "vel pitar", 2.8);
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    %%%%%:  144-block  0
+call    4 never executed
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  144-block  1
+call    8 never executed
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  144-block  2
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:  144-block  3
+call   15 never executed
+call   16 never executed
+call   17 never executed
+call   18 never executed
+call   19 never executed
+call   20 never executed
+    $$$$$:  144-block  4
+call   21 never executed
+    $$$$$:  144-block  5
+    $$$$$:  144-block  6
+call   22 never executed
+    $$$$$:  144-block  7
+    $$$$$:  144-block  8
+call   23 never executed
+    $$$$$:  144-block  9
+    $$$$$:  144-block 10
+call   24 never executed
+    $$$$$:  144-block 11
+    $$$$$:  144-block 12
+call   25 never executed
+    $$$$$:  144-block 13
+    $$$$$:  144-block 14
+call   26 never executed
+    $$$$$:  144-block 15
+call   27 never executed
+    #####:  145:    srv.addservice("aspirator", "electrocasnic", "electrolux",256);
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    %%%%%:  145-block  0
+call    4 never executed
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  145-block  1
+call    8 never executed
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  145-block  2
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:  145-block  3
+call   15 never executed
+call   16 never executed
+call   17 never executed
+call   18 never executed
+call   19 never executed
+call   20 never executed
+    $$$$$:  145-block  4
+call   21 never executed
+    $$$$$:  145-block  5
+    $$$$$:  145-block  6
+call   22 never executed
+    $$$$$:  145-block  7
+    $$$$$:  145-block  8
+call   23 never executed
+    $$$$$:  145-block  9
+    $$$$$:  145-block 10
+call   24 never executed
+    $$$$$:  145-block 11
+    $$$$$:  145-block 12
+call   25 never executed
+    $$$$$:  145-block 13
+    $$$$$:  145-block 14
+call   26 never executed
+    $$$$$:  145-block 15
+call   27 never executed
+    #####:  146:    srv.addservice("cuptor", "electrocasnic", "electrolux", 569);
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    %%%%%:  146-block  0
+call    4 never executed
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  146-block  1
+call    8 never executed
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  146-block  2
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:  146-block  3
+call   15 never executed
+call   16 never executed
+call   17 never executed
+call   18 never executed
+call   19 never executed
+call   20 never executed
+    $$$$$:  146-block  4
+call   21 never executed
+    $$$$$:  146-block  5
+    $$$$$:  146-block  6
+call   22 never executed
+    $$$$$:  146-block  7
+    $$$$$:  146-block  8
+call   23 never executed
+    $$$$$:  146-block  9
+    $$$$$:  146-block 10
+call   24 never executed
+    $$$$$:  146-block 11
+    $$$$$:  146-block 12
+call   25 never executed
+    $$$$$:  146-block 13
+    $$$$$:  146-block 14
+call   26 never executed
+    $$$$$:  146-block 15
+call   27 never executed
+    #####:  147:    srv.addservice("apa","alimentar","dorna",5.2);
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    %%%%%:  147-block  0
+call    4 never executed
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  147-block  1
+call    8 never executed
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  147-block  2
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:  147-block  3
+call   15 never executed
+call   16 never executed
+call   17 never executed
+call   18 never executed
+call   19 never executed
+call   20 never executed
+    $$$$$:  147-block  4
+call   21 never executed
+    $$$$$:  147-block  5
+    $$$$$:  147-block  6
+call   22 never executed
+    $$$$$:  147-block  7
+    $$$$$:  147-block  8
+call   23 never executed
+    $$$$$:  147-block  9
+    $$$$$:  147-block 10
+call   24 never executed
+    $$$$$:  147-block 11
+    $$$$$:  147-block 12
+call   25 never executed
+    $$$$$:  147-block 13
+    $$$$$:  147-block 14
+call   26 never executed
+    $$$$$:  147-block 15
+call   27 never executed
+    #####:  148:    srv.addservice("stilou","papetarie","herlitz",25);
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    %%%%%:  148-block  0
+call    4 never executed
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  148-block  1
+call    8 never executed
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  148-block  2
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:  148-block  3
+call   15 never executed
+call   16 never executed
+call   17 never executed
+call   18 never executed
+call   19 never executed
+call   20 never executed
+    $$$$$:  148-block  4
+call   21 never executed
+    $$$$$:  148-block  5
+    $$$$$:  148-block  6
+call   22 never executed
+    $$$$$:  148-block  7
+    $$$$$:  148-block  8
+call   23 never executed
+    $$$$$:  148-block  9
+    $$$$$:  148-block 10
+call   24 never executed
+    $$$$$:  148-block 11
+    $$$$$:  148-block 12
+call   25 never executed
+    $$$$$:  148-block 13
+    $$$$$:  148-block 14
+call   26 never executed
+    #####:  149:}
+        -:  150:
+function _ZN9ConsoleUI11uiFiltreazaEv called 0 returned 0% blocks executed 0%
+    #####:  151:void ConsoleUI::uiFiltreaza() {
+    #####:  152:    cout << "Optiune 1-dupa tip\n";
+    %%%%%:  152-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  153:    cout << "Optiune 2-dupa producator\n";
+    %%%%%:  153-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  154:    cout << "Optiune 3-dupa nume\n";
+    %%%%%:  154-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  155:    cout << "Optiunea aleasa este:";
+    %%%%%:  155-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  156:    int filtru;
+    #####:  157:    string tip,prod, nume;
+    %%%%%:  157-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+    %%%%%:  157-block  1
+call    3 never executed
+call    4 never executed
+call    5 never executed
+    $$$$$:  157-block  2
+call    6 never executed
+    $$$$$:  157-block  3
+call    7 never executed
+    $$$$$:  157-block  4
+call    8 never executed
+    #####:  158:    cin >> filtru;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  159:    if (filtru == 1)
+    %%%%%:  159-block  0
+branch  0 never executed
+branch  1 never executed
+        -:  160:    {
+    #####:  161:        cout << "Introduceti tipul dupa care doriti filtrarea:";
+    %%%%%:  161-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  162:        getline(cin >> ws, tip);
+    %%%%%:  162-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  162-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  163:        if (srv.filtreaza_tip(tip).size() == 0)
+    %%%%%:  163-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  163-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  163-block  2
+call    6 never executed
+call    7 never executed
+call    8 never executed
+branch  9 never executed
+branch 10 never executed
+    $$$$$:  163-block  3
+call   11 never executed
+    $$$$$:  163-block  4
+    #####:  164:            cout << "Nu exista produse cu acest tip\n";
+    %%%%%:  164-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  165:        for (const auto& prod1 : srv.filtreaza_tip(tip)) {
+    %%%%%:  165-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  165-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  165-block  2
+call    6 never executed
+call    7 never executed
+call    8 never executed
+    %%%%%:  165-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  165-block  4
+call   12 never executed
+    %%%%%:  165-block  5
+call   13 never executed
+    $$$$$:  165-block  6
+call   14 never executed
+    $$$$$:  165-block  7
+    $$$$$:  165-block  8
+call   15 never executed
+    #####:  166:            cout << "NUME: " << prod1.getNume() << " | TIP: " << prod1.getTip() << " | PRODUCATOR: " << prod1.getProd() << " | PRET: " << prod1.getPret() << endl;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  166-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  166-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  166-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  166-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:  166-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:  166-block  5
+call   18 never executed
+branch 19 never executed
+branch 20 never executed
+    %%%%%:  166-block  6
+call   21 never executed
+branch 22 never executed
+branch 23 never executed
+    %%%%%:  166-block  7
+call   24 never executed
+branch 25 never executed
+branch 26 never executed
+    %%%%%:  166-block  8
+call   27 never executed
+branch 28 never executed
+branch 29 never executed
+    %%%%%:  166-block  9
+call   30 never executed
+call   31 never executed
+branch 32 never executed
+branch 33 never executed
+    %%%%%:  166-block 10
+call   34 never executed
+branch 35 never executed
+branch 36 never executed
+    %%%%%:  166-block 11
+call   37 never executed
+call   38 never executed
+call   39 never executed
+call   40 never executed
+    $$$$$:  166-block 12
+call   41 never executed
+    $$$$$:  166-block 13
+    $$$$$:  166-block 14
+call   42 never executed
+    $$$$$:  166-block 15
+    $$$$$:  166-block 16
+call   43 never executed
+    $$$$$:  166-block 17
+        -:  167:        }
+        -:  168:    }
+    #####:  169:    if (filtru == 2)
+    %%%%%:  169-block  0
+branch  0 never executed
+branch  1 never executed
+        -:  170:    {
+        -:  171:
+    #####:  172:        cout << "Introduceti producatorul dupa care doriti filtrarea:";
+    %%%%%:  172-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  173:        getline(cin >> ws, prod);
+    %%%%%:  173-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  173-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  174:        if (srv.filtreaza_prod(prod).size() == 0)
+    %%%%%:  174-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  174-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  174-block  2
+call    6 never executed
+call    7 never executed
+call    8 never executed
+branch  9 never executed
+branch 10 never executed
+    $$$$$:  174-block  3
+call   11 never executed
+    $$$$$:  174-block  4
+    #####:  175:            cout << "Nu exista produse cu acest producator\n";
+    %%%%%:  175-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  176:        for (const auto& prod : srv.filtreaza_prod(prod)) {
+    %%%%%:  176-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  176-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  176-block  2
+call    6 never executed
+call    7 never executed
+call    8 never executed
+    %%%%%:  176-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  176-block  4
+call   12 never executed
+    %%%%%:  176-block  5
+call   13 never executed
+    $$$$$:  176-block  6
+call   14 never executed
+    $$$$$:  176-block  7
+    $$$$$:  176-block  8
+call   15 never executed
+    #####:  177:            cout << "NUME: " << prod.getNume() << " | TIP: " << prod.getTip() << " | PRODUCATOR: " << prod.getProd() << " | PRET: " << prod.getPret() << endl;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  177-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  177-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  177-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  177-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:  177-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:  177-block  5
+call   18 never executed
+branch 19 never executed
+branch 20 never executed
+    %%%%%:  177-block  6
+call   21 never executed
+branch 22 never executed
+branch 23 never executed
+    %%%%%:  177-block  7
+call   24 never executed
+branch 25 never executed
+branch 26 never executed
+    %%%%%:  177-block  8
+call   27 never executed
+branch 28 never executed
+branch 29 never executed
+    %%%%%:  177-block  9
+call   30 never executed
+call   31 never executed
+branch 32 never executed
+branch 33 never executed
+    %%%%%:  177-block 10
+call   34 never executed
+branch 35 never executed
+branch 36 never executed
+    %%%%%:  177-block 11
+call   37 never executed
+call   38 never executed
+call   39 never executed
+call   40 never executed
+    $$$$$:  177-block 12
+call   41 never executed
+    $$$$$:  177-block 13
+    $$$$$:  177-block 14
+call   42 never executed
+    $$$$$:  177-block 15
+    $$$$$:  177-block 16
+call   43 never executed
+    $$$$$:  177-block 17
+        -:  178:        }
+        -:  179:    }
+    #####:  180:    if (filtru == 3)
+    %%%%%:  180-block  0
+branch  0 never executed
+branch  1 never executed
+        -:  181:    {
+    #####:  182:        cout << "Introduceti numele dupa care doriti filtrarea:";
+    %%%%%:  182-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  183:        getline(cin >> ws, nume);
+    %%%%%:  183-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  183-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  184:        if (srv.filtreaza_nume(nume).size() == 0)
+    %%%%%:  184-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  184-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  184-block  2
+call    6 never executed
+call    7 never executed
+call    8 never executed
+branch  9 never executed
+branch 10 never executed
+    $$$$$:  184-block  3
+call   11 never executed
+    $$$$$:  184-block  4
+    #####:  185:            cout << "Nu exista produse cu acest nume\n";
+    %%%%%:  185-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  186:        for (const auto& prod : srv.filtreaza_nume(nume)) {
+    %%%%%:  186-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  186-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  186-block  2
+call    6 never executed
+call    7 never executed
+call    8 never executed
+    %%%%%:  186-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  186-block  4
+call   12 never executed
+    %%%%%:  186-block  5
+call   13 never executed
+    $$$$$:  186-block  6
+call   14 never executed
+    $$$$$:  186-block  7
+    $$$$$:  186-block  8
+call   15 never executed
+    #####:  187:            cout << "NUME: " << prod.getNume() << " | TIP: " << prod.getTip() << " | PRODUCATOR: " << prod.getProd() << " | PRET: " << prod.getPret() << endl;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  187-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  187-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  187-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  187-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:  187-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:  187-block  5
+call   18 never executed
+branch 19 never executed
+branch 20 never executed
+    %%%%%:  187-block  6
+call   21 never executed
+branch 22 never executed
+branch 23 never executed
+    %%%%%:  187-block  7
+call   24 never executed
+branch 25 never executed
+branch 26 never executed
+    %%%%%:  187-block  8
+call   27 never executed
+branch 28 never executed
+branch 29 never executed
+    %%%%%:  187-block  9
+call   30 never executed
+call   31 never executed
+branch 32 never executed
+branch 33 never executed
+    %%%%%:  187-block 10
+call   34 never executed
+branch 35 never executed
+branch 36 never executed
+    %%%%%:  187-block 11
+call   37 never executed
+call   38 never executed
+call   39 never executed
+call   40 never executed
+    $$$$$:  187-block 12
+call   41 never executed
+    $$$$$:  187-block 13
+    $$$$$:  187-block 14
+call   42 never executed
+    $$$$$:  187-block 15
+    $$$$$:  187-block 16
+call   43 never executed
+    $$$$$:  187-block 17
+        -:  188:        }
+        -:  189:    }
+        -:  190:
+    #####:  191:}
+        -:  192:
+function _ZN9ConsoleUI6uiSortEv called 0 returned 0% blocks executed 0%
+    #####:  193:void ConsoleUI::uiSort() {
+        -:  194:    int ordine, optiune;
+    #####:  195:    cout << "Sortati dupa:"<<endl;
+    %%%%%:  195-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  195-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  196:    cout << "1-Nume   2-Pret   3-Nume si Tip" << endl;
+    %%%%%:  196-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  196-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  197:    cin >> optiune;
+    %%%%%:  197-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  198:    cout << "Ordinea sa fie : 0-crescator   1-descrescator" << endl;
+    %%%%%:  198-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  198-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  199:    cin >> ordine;
+    %%%%%:  199-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  200:    if (optiune == 1)
+    %%%%%:  200-block  0
+branch  0 never executed
+branch  1 never executed
+        -:  201:    {
+    #####:  202:        for (const auto& prod : srv.sortnume(ordine)) {
+    %%%%%:  202-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  202-block  1
+call    3 never executed
+call    4 never executed
+    %%%%%:  202-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  202-block  3
+call    8 never executed
+    %%%%%:  202-block  4
+call    9 never executed
+    $$$$$:  202-block  5
+call   10 never executed
+    #####:  203:            cout << "NUME: " << prod.getNume() << " | TIP: " << prod.getTip() << " | PRODUCATOR: " << prod.getProd() << " | PRET: " << prod.getPret() << endl;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  203-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  203-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  203-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  203-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:  203-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:  203-block  5
+call   18 never executed
+branch 19 never executed
+branch 20 never executed
+    %%%%%:  203-block  6
+call   21 never executed
+branch 22 never executed
+branch 23 never executed
+    %%%%%:  203-block  7
+call   24 never executed
+branch 25 never executed
+branch 26 never executed
+    %%%%%:  203-block  8
+call   27 never executed
+branch 28 never executed
+branch 29 never executed
+    %%%%%:  203-block  9
+call   30 never executed
+call   31 never executed
+branch 32 never executed
+branch 33 never executed
+    %%%%%:  203-block 10
+call   34 never executed
+branch 35 never executed
+branch 36 never executed
+    %%%%%:  203-block 11
+call   37 never executed
+call   38 never executed
+call   39 never executed
+call   40 never executed
+    $$$$$:  203-block 12
+call   41 never executed
+    $$$$$:  203-block 13
+    $$$$$:  203-block 14
+call   42 never executed
+    $$$$$:  203-block 15
+    $$$$$:  203-block 16
+call   43 never executed
+    $$$$$:  203-block 17
+        -:  204:        }
+        -:  205:    }
+    #####:  206:    if (optiune == 2)
+    %%%%%:  206-block  0
+branch  0 never executed
+branch  1 never executed
+        -:  207:    {
+    #####:  208:        for (const auto& prod : srv.sortpret(ordine)) {
+    %%%%%:  208-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  208-block  1
+call    3 never executed
+call    4 never executed
+    %%%%%:  208-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  208-block  3
+call    8 never executed
+    %%%%%:  208-block  4
+call    9 never executed
+    $$$$$:  208-block  5
+call   10 never executed
+    #####:  209:            cout << "NUME: " << prod.getNume() << " | TIP: " << prod.getTip() << " | PRODUCATOR: " << prod.getProd() << " | PRET: " << prod.getPret() << endl;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  209-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  209-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  209-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  209-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:  209-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:  209-block  5
+call   18 never executed
+branch 19 never executed
+branch 20 never executed
+    %%%%%:  209-block  6
+call   21 never executed
+branch 22 never executed
+branch 23 never executed
+    %%%%%:  209-block  7
+call   24 never executed
+branch 25 never executed
+branch 26 never executed
+    %%%%%:  209-block  8
+call   27 never executed
+branch 28 never executed
+branch 29 never executed
+    %%%%%:  209-block  9
+call   30 never executed
+call   31 never executed
+branch 32 never executed
+branch 33 never executed
+    %%%%%:  209-block 10
+call   34 never executed
+branch 35 never executed
+branch 36 never executed
+    %%%%%:  209-block 11
+call   37 never executed
+call   38 never executed
+call   39 never executed
+call   40 never executed
+    $$$$$:  209-block 12
+call   41 never executed
+    $$$$$:  209-block 13
+    $$$$$:  209-block 14
+call   42 never executed
+    $$$$$:  209-block 15
+    $$$$$:  209-block 16
+call   43 never executed
+    $$$$$:  209-block 17
+        -:  210:        }
+        -:  211:    }
+    #####:  212:    if (optiune == 3)
+    %%%%%:  212-block  0
+branch  0 never executed
+branch  1 never executed
+        -:  213:    {
+    #####:  214:        for (const auto& prod : srv.sortNumeTip(ordine)) {
+    %%%%%:  214-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  214-block  1
+call    3 never executed
+call    4 never executed
+    %%%%%:  214-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  214-block  3
+call    8 never executed
+    %%%%%:  214-block  4
+call    9 never executed
+    $$$$$:  214-block  5
+call   10 never executed
+    #####:  215:            cout << "NUME: " << prod.getNume() << " | TIP: " << prod.getTip() << " | PRODUCATOR: " << prod.getProd() << " | PRET: " << prod.getPret() << endl;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  215-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  215-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  215-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  215-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:  215-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:  215-block  5
+call   18 never executed
+branch 19 never executed
+branch 20 never executed
+    %%%%%:  215-block  6
+call   21 never executed
+branch 22 never executed
+branch 23 never executed
+    %%%%%:  215-block  7
+call   24 never executed
+branch 25 never executed
+branch 26 never executed
+    %%%%%:  215-block  8
+call   27 never executed
+branch 28 never executed
+branch 29 never executed
+    %%%%%:  215-block  9
+call   30 never executed
+call   31 never executed
+branch 32 never executed
+branch 33 never executed
+    %%%%%:  215-block 10
+call   34 never executed
+branch 35 never executed
+branch 36 never executed
+    %%%%%:  215-block 11
+call   37 never executed
+call   38 never executed
+call   39 never executed
+call   40 never executed
+    $$$$$:  215-block 12
+call   41 never executed
+    $$$$$:  215-block 13
+    $$$$$:  215-block 14
+call   42 never executed
+    $$$$$:  215-block 15
+    $$$$$:  215-block 16
+call   43 never executed
+    $$$$$:  215-block 17
+        -:  216:        }
+        -:  217:    }
+        -:  218:
+    #####:  219:}
+    %%%%%:  219-block  0
+        -:  220:
+        -:  221:
+function _ZN9ConsoleUI16printAllProductsEv called 0 returned 0% blocks executed 0%
+    #####:  222:void ConsoleUI::printAllProducts() {
+    #####:  223:    vector <Produs>& allproducts = srv.getallproducts();
+    %%%%%:  223-block  0
+call    0 never executed
+    #####:  224:    if (allproducts.size() == 0)
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  225:        cout << "Nu exista produse." << endl;
+    %%%%%:  225-block  0
+call    0 never executed
+call    1 never executed
+        -:  226:    else
+    #####:  227:        for (const auto& prod : allproducts) {
+    %%%%%:  227-block  0
+call    0 never executed
+call    1 never executed
+    %%%%%:  227-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  227-block  2
+call    5 never executed
+    #####:  228:            cout << "NUME: " << prod.getNume() << " | TIP: " << prod.getTip() << " | PRODUCATOR: " << prod.getProd() << " | PRET: " << prod.getPret() << endl;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  228-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  228-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  228-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  228-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:  228-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:  228-block  5
+call   18 never executed
+branch 19 never executed
+branch 20 never executed
+    %%%%%:  228-block  6
+call   21 never executed
+branch 22 never executed
+branch 23 never executed
+    %%%%%:  228-block  7
+call   24 never executed
+branch 25 never executed
+branch 26 never executed
+    %%%%%:  228-block  8
+call   27 never executed
+branch 28 never executed
+branch 29 never executed
+    %%%%%:  228-block  9
+call   30 never executed
+call   31 never executed
+branch 32 never executed
+branch 33 never executed
+    %%%%%:  228-block 10
+call   34 never executed
+branch 35 never executed
+branch 36 never executed
+    %%%%%:  228-block 11
+call   37 never executed
+call   38 never executed
+call   39 never executed
+call   40 never executed
+    $$$$$:  228-block 12
+call   41 never executed
+    $$$$$:  228-block 13
+    $$$$$:  228-block 14
+call   42 never executed
+    $$$$$:  228-block 15
+    $$$$$:  228-block 16
+call   43 never executed
+    $$$$$:  228-block 17
+        -:  229:        }
+    #####:  230:}
+    %%%%%:  230-block  0
+        -:  231:
+        -:  232:
+        -:  233:
+        -:  234:
+        -:  235:
+        -:  236:
+function _ZN9ConsoleUI16printAllfromlistEv called 0 returned 0% blocks executed 0%
+    #####:  237:void ConsoleUI::printAllfromlist() {
+    #####:  238:    const vector <Produs>& allproducts = srv.getallfromlistsrv();
+    %%%%%:  238-block  0
+call    0 never executed
+    #####:  239:    if (allproducts.size() == 0)
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  240:        cout << "Nu exista produse." << endl;
+    %%%%%:  240-block  0
+call    0 never executed
+call    1 never executed
+        -:  241:    else
+    #####:  242:        for (const auto& prod : allproducts) {
+    %%%%%:  242-block  0
+call    0 never executed
+call    1 never executed
+    %%%%%:  242-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  242-block  2
+call    5 never executed
+    #####:  243:            cout << "NUME: " << prod.getNume() << " | TIP: " << prod.getTip() << " | PRODUCATOR: " << prod.getProd() << " | PRET: " << prod.getPret() << endl;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  243-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  243-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  243-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  243-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:  243-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:  243-block  5
+call   18 never executed
+branch 19 never executed
+branch 20 never executed
+    %%%%%:  243-block  6
+call   21 never executed
+branch 22 never executed
+branch 23 never executed
+    %%%%%:  243-block  7
+call   24 never executed
+branch 25 never executed
+branch 26 never executed
+    %%%%%:  243-block  8
+call   27 never executed
+branch 28 never executed
+branch 29 never executed
+    %%%%%:  243-block  9
+call   30 never executed
+call   31 never executed
+branch 32 never executed
+branch 33 never executed
+    %%%%%:  243-block 10
+call   34 never executed
+branch 35 never executed
+branch 36 never executed
+    %%%%%:  243-block 11
+call   37 never executed
+call   38 never executed
+call   39 never executed
+call   40 never executed
+    $$$$$:  243-block 12
+call   41 never executed
+    $$$$$:  243-block 13
+    $$$$$:  243-block 14
+call   42 never executed
+    $$$$$:  243-block 15
+    $$$$$:  243-block 16
+call   43 never executed
+    $$$$$:  243-block 17
+        -:  244:        }
+    #####:  245:}
+    %%%%%:  245-block  0
+        -:  246:
+function _ZN9ConsoleUI9uiaddlistEv called 0 returned 0% blocks executed 0%
+    #####:  247:void ConsoleUI::uiaddlist() {
+    #####:  248:    string nume, prod;
+    %%%%%:  248-block  0
+call    0 never executed
+call    1 never executed
+    %%%%%:  248-block  1
+call    2 never executed
+call    3 never executed
+    $$$$$:  248-block  2
+call    4 never executed
+    $$$$$:  248-block  3
+call    5 never executed
+    #####:  249:    cout << "Numele produsului este:";
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  250:    getline(cin >> ws, nume);
+    %%%%%:  250-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  250-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        -:  251:
+    #####:  252:    cout << "Producatorul produsului este:";
+    %%%%%:  252-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  253:    getline(cin >> ws, prod);
+    %%%%%:  253-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  253-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        -:  254:
+        -:  255:    try {
+    #####:  256:        srv.addlistsrv(nume, prod);
+    %%%%%:  256-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  256-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  256-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  256-block  3
+call    9 never executed
+call   10 never executed
+    $$$$$:  256-block  4
+call   11 never executed
+    $$$$$:  256-block  5
+    $$$$$:  256-block  6
+call   12 never executed
+    $$$$$:  256-block  7
+    #####:  257:        cout << "Produsul s-a adaugat cu succes in cos." << endl;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  257-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        -:  258:    }
+    =====:  259:    catch (RepoExcep& re) {
+    $$$$$:  259-block  0
+call    0 never executed
+    $$$$$:  259-block  1
+call    1 never executed
+    =====:  260:        cout << re.getErrorMessage();
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:  260-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  260-block  1
+call    6 never executed
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  260-block  2
+call   10 never executed
+    $$$$$:  260-block  3
+        -:  261:    }
+    =====:  262:    catch (ValidationExcep& ve) {
+    $$$$$:  262-block  0
+call    0 never executed
+    $$$$$:  262-block  1
+call    1 never executed
+    =====:  263:        cout << "Produsul nu este valid!" << endl;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:  263-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    =====:  264:        cout << ve.getErrorMessages();
+    $$$$$:  264-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:  264-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  264-block  2
+call    6 never executed
+call    7 never executed
+    $$$$$:  264-block  3
+call    8 never executed
+    $$$$$:  264-block  4
+        -:  265:    }
+    #####:  266:}
+function _ZN9ConsoleUI15uiaddrandomlistEv called 0 returned 0% blocks executed 0%
+    #####:  267:void ConsoleUI::uiaddrandomlist() {
+        -:  268:    int howManyToAdd;
+    #####:  269:    cout << "Cate produse sa se adauge in cos?";
+    %%%%%:  269-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  270:    cin >> howManyToAdd;
+    %%%%%:  270-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  271:
+        -:  272:
+        -:  273:    try {
+    #####:  274:        int howManyAdded = srv.addrandomsrv(howManyToAdd);
+    %%%%%:  274-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  275:        cout << "S-au adaugat " << howManyAdded << " produse in cos." << endl;
+    %%%%%:  275-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  275-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  275-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  275-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+        -:  276:    }
+    =====:  277:    catch (RepoExcep& re) {
+    $$$$$:  277-block  0
+call    0 never executed
+    $$$$$:  277-block  1
+call    1 never executed
+    =====:  278:        cout << re.getErrorMessage();
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:  278-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  278-block  1
+call    6 never executed
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  278-block  2
+call   10 never executed
+    $$$$$:  278-block  3
+        -:  279:    }
+    #####:  280:}
+    %%%%%:  280-block  0
+        -:  281:
+function _ZN9ConsoleUI11uiemptylistEv called 0 returned 0% blocks executed 0%
+    #####:  282:void ConsoleUI::uiemptylist() {
+    #####:  283:    srv.emptylistsrv();
+    %%%%%:  283-block  0
+call    0 never executed
+    #####:  284:    cout << "S-au sters toate produsele din cosul curent." << endl;
+call    0 never executed
+call    1 never executed
+    #####:  285:}
+        -:  286:
+function _ZN9ConsoleUI5uiDtoEv called 0 returned 0% blocks executed 0%
+    #####:  287:void ConsoleUI::uiDto() {
+    #####:  288:        auto dict = srv.get_dict();
+    %%%%%:  288-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  288-block  1
+call    3 never executed
+    $$$$$:  288-block  2
+call    4 never executed
+    #####:  289:        for (auto& el : dict) {
+    %%%%%:  289-block  0
+call    0 never executed
+call    1 never executed
+    %%%%%:  289-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  289-block  2
+call    5 never executed
+    %%%%%:  289-block  3
+call    6 never executed
+    #####:  290:            cout << "Key: " << el.first << " Tip: " << el.second.getTip() << " Nr: "<< el.second.get_nr() << '\n';
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  290-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  290-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  290-block  2
+call    9 never executed
+call   10 never executed
+branch 11 never executed
+branch 12 never executed
+    %%%%%:  290-block  3
+call   13 never executed
+branch 14 never executed
+branch 15 never executed
+    %%%%%:  290-block  4
+call   16 never executed
+call   17 never executed
+branch 18 never executed
+branch 19 never executed
+    %%%%%:  290-block  5
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+        -:  291:
+        -:  292:    }
+    #####:  293:}
+        -:  294:
+        -:  295:
+function _ZN9ConsoleUI5uiCosEv called 0 returned 0% blocks executed 0%
+    #####:  296:void ConsoleUI::uiCos() {
+        -:  297:    int cmd;
+    #####:  298:    int runninglist = 1;
+    %%%%%:  298-block  0
+    #####:  299:    while (runninglist) {
+    %%%%%:  299-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:  299-block  1
+    #####:  300:        printListMenu();
+    %%%%%:  300-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  301:        cout << "Comanda este:";
+    %%%%%:  301-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  302:        cin >> cmd;
+    %%%%%:  302-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  303:        switch (cmd)
+    %%%%%:  303-block  0
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+branch  4 never executed
+branch  5 never executed
+        -:  304:        {
+    #####:  305:            case 1:
+    #####:  306:                uiaddlist();
+    %%%%%:  306-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  307:                break;
+    %%%%%:  307-block  0
+    #####:  308:            case 2:
+    #####:  309:                uiaddrandomlist();
+    %%%%%:  309-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  310:                break;
+    %%%%%:  310-block  0
+    #####:  311:            case 3:
+    #####:  312:                uiemptylist();
+    %%%%%:  312-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  313:                break;
+    %%%%%:  313-block  0
+        -:  314:
+    #####:  315:            case 4:
+    #####:  316:                printAllfromlist();
+    %%%%%:  316-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  317:                break;
+    %%%%%:  317-block  0
+    #####:  318:            case 5:
+    #####:  319:                runninglist = 0;
+    #####:  320:                break;
+    %%%%%:  320-block  0
+    #####:  321:            default:
+    #####:  322:                break;
+    %%%%%:  322-block  0
+        -:  323:        }
+        -:  324:
+        -:  325:    }
+    #####:  326:}
+    %%%%%:  326-block  0
+        -:  327:
+function _ZN9ConsoleUI3runEv called 1 returned 100% blocks executed 32%
+        1:  328:void ConsoleUI::run() {
+        1:  329:    int running = 1;
+        1:  329-block  0
+        -:  330:    int cmd;
+        2:  331:    while (running) {
+        2:  331-block  0
+branch  0 taken 1 (fallthrough)
+branch  1 taken 1
+        1:  331-block  1
+        1:  332:        printMenu();
+        1:  332-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  333:        cout << "Comanda este:";
+        1:  333-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  334:        cin >> cmd;
+        1:  334-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  335:        switch (cmd)
+        1:  335-block  0
+branch  0 taken 0
+branch  1 taken 0
+branch  2 taken 0
+branch  3 taken 0
+branch  4 taken 0
+branch  5 taken 0
+branch  6 taken 0
+branch  7 taken 0
+branch  8 taken 0
+branch  9 taken 0
+branch 10 taken 1
+branch 11 taken 0
+        -:  336:        {
+    #####:  337:            case 2:
+    #####:  338:                uiAdd();
+    %%%%%:  338-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  339:                break;
+    %%%%%:  339-block  0
+    #####:  340:            case 1:
+    #####:  341:                printAllProducts();
+    %%%%%:  341-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  342:                break;
+    %%%%%:  342-block  0
+    #####:  343:            case 3:
+    #####:  344:                uiFind();
+    %%%%%:  344-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  345:                break;
+    %%%%%:  345-block  0
+    #####:  346:            case 4:
+    #####:  347:                uiRandomize();
+    %%%%%:  347-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  348:                break;
+    %%%%%:  348-block  0
+    #####:  349:            case 5:
+    #####:  350:                uiDell();
+    %%%%%:  350-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  351:                break;
+    %%%%%:  351-block  0
+    #####:  352:            case 6:
+    #####:  353:                uiModify();
+    %%%%%:  353-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  354:                break;
+    %%%%%:  354-block  0
+    #####:  355:            case 7:
+    #####:  356:                uiFiltreaza();
+    %%%%%:  356-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  357:                break;
+    %%%%%:  357-block  0
+    #####:  358:            case 8:
+    #####:  359:                uiSort();
+    %%%%%:  359-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  360:                break;
+    %%%%%:  360-block  0
+    #####:  361:            case 9:
+    #####:  362:                uiCos();
+    %%%%%:  362-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  363:                break;
+    %%%%%:  363-block  0
+    #####:  364:            case 10:
+    #####:  365:                uiDto();
+    %%%%%:  365-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  366:                break;
+    %%%%%:  366-block  0
+        1:  367:            case 0:
+        1:  368:                running = 0;
+        1:  369:                break;
+        1:  369-block  0
+    #####:  370:            default:
+    #####:  371:                break;
+    %%%%%:  371-block  0
+        -:  372:        }
+        -:  373:
+        -:  374:    }
+        1:  375:}
+        1:  375-block  0

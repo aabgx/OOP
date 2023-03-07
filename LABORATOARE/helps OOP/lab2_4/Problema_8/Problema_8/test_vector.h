@@ -1,0 +1,11 @@
+#pragma once
+void test_creazaVectorDinamic();
+void test_distruge();
+void test_resize();
+void test_get();
+void test_get_capacity();
+void test_modifica_capacitate();
+void test_modifica_size();
+void test_get_size();
+void test_get_elems();
+void test_modifica_elems();

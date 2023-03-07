@@ -1,0 +1,21 @@
+[2022-04-08 13:59:37] [info] Start Program:
+Path:"C:\Users\andre\Desktop\rezolvare\x64\Debug\rezolvare.exe"
+Arguments:
+Working directory: "C:\Users\andre\Desktop\rezolvare"
+Modules: Selected: C:\Users\andre\Desktop\rezolvare\x64\Debug\rezolvare.exe Excluded: 
+Sources: Selected: C:\Users\andre\Desktop\rezolvare Excluded: UI.cpp 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\andre\AppData\Local\Temp\nmg03o1d.l2y 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-04-08 13:59:37] [info] Module: C:\Users\andre\Desktop\rezolvare\x64\Debug\rezolvare.exe is selected because it matches selected pattern: C:\Users\andre\Desktop\rezolvare\x64\Debug\rezolvare.exe
+[2022-04-08 13:59:39] [info] ----------------------------------------------------
+[2022-04-08 13:59:39] [info] Coverage binary generated in file: C:\Users\andre\AppData\Local\Temp\nmg03o1d.l2y
+[2022-04-08 13:59:39] [info] ----------------------------------------------------

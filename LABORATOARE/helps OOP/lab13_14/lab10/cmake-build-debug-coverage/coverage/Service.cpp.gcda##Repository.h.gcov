@@ -1,0 +1,95 @@
+        -:    0:Source:/mnt/c/Users/Laura/CLionProjects/lab_8-9/Repository.h
+        -:    0:Graph:/mnt/c/Users/Laura/CLionProjects/lab_8-9/cmake-build-debug-coverage/CMakeFiles/untitled.dir/Service.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Laura/CLionProjects/lab_8-9/cmake-build-debug-coverage/CMakeFiles/untitled.dir/Service.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Laura on 4/8/2022.
+        -:    3://
+        -:    4:#pragma once
+        -:    5:#ifndef UNTITLED_REPOSITORY_H
+        -:    6:#define UNTITLED_REPOSITORY_H
+        -:    7:
+        -:    8:
+        -:    9:#include "Entities.h"
+        -:   10:#include "VectorDinamicTemplate.h"
+        -:   11:#include <vector>
+        -:   12:using std::vector;
+        -:   13:class RepoExcep {
+        -:   14:private:
+        -:   15:    string errormsg;
+        -:   16:public:
+        -:   17:    RepoExcep(string errormsg) :errormsg{ errormsg } {};
+        -:   18:    string getErrorMessage() {
+        -:   19:        return this->errormsg;
+        -:   20:    }
+        -:   21:};
+        -:   22:
+        -:   23:class ProdRepo {
+        -:   24:private:
+        -:   25:    vector<Produs> allproducts;
+        -:   26:public:
+function _ZN8ProdRepoC2Ev called 0 returned 0% blocks executed 0%
+    #####:   27:    ProdRepo() noexcept = default;
+    %%%%%:   27-block  0
+call    0 never executed
+        -:   28:    //constructor de copiere
+        -:   29:    //punem delete fiindca nu vrem sa se faca nicio copie la Repository
+        -:   30:    ProdRepo(const ProdRepo& ot) = delete;
+        -:   31:
+        -:   32:    /*
+        -:   33:    Adauga un produs in lista
+        -:   34:    @param p: produsul care se adauga
+        -:   35:    @return -
+        -:   36:    post: produsul va fi adaugat in lista
+        -:   37:
+        -:   38:    @throws: RepoException daca un produs cu acelasi nume si acelasi producator
+        -:   39:             exista deja
+        -:   40:    */
+        -:   41:    void addrepo(const Produs& p);
+        -:   42:
+        -:   43:    /*sterge  un produs din lista
+        -:   44:        @param p : produsul care se sterge
+        -:   45:        @return -
+        -:   46:        post: produsul va fi sters din lista
+        -:   47:        @throws : RepoException daca produsul nu exista in lista
+        -:   48:        */
+        -:   49:    void dellrepo( const Produs& p);
+        -:   50:
+        -:   51:    /*modifica pretul unui produs  din lista
+        -:   52:            @param p : produsul care se modifica
+        -:   53:            @return -
+        -:   54:            post: pretul produsului va fi modificat
+        -:   55:            @throws : RepoException daca produsul nu exista in lista
+        -:   56:            */
+        -:   57:    void modifyrepo(const Produs& p);
+        -:   58:
+        -:   59:    /*
+        -:   60:    Returneaza o lista cu toate produsele
+        -:   61:    @return: lista cu produsele
+        -:   62:    */
+        -:   63:    vector<Produs>& getallproducts() noexcept;
+        -:   64:
+        -:   65:    //int findindex(string nume, string producator);
+        -:   66:
+        -:   67:    /*
+        -:   68:    Cauta un produs cu numele si producatorul dat
+        -:   69:
+        -:   70:    @param nume: numele dupa care se cauta
+        -:   71:    @param prod: producatorul dupa care se cauta
+        -:   72:    @returns: entitatea Produs cu numele si producatorul dat (daca aceasta exista)
+        -:   73:    @throws: RepoException daca nu exista produs cu numele si producatorul dat*/
+        -:   74:    const Produs& find(string nume, string prod);
+        -:   75:
+        -:   76:    /*
+        -:   77:    Verifica daca un produs dat exista in lista
+        -:   78:
+        -:   79:    @param p: produsul care se cauta in lista
+        -:   80:    @return: true daca produsul exista, false altfel
+        -:   81:    */
+        -:   82:    bool exists(const Produs& p);
+        -:   83:
+        -:   84:};
+        -:   85:void testerepo();
+        -:   86:
+        -:   87:
+        -:   88:#endif //UNTITLED_REPOSITORY_H

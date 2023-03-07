@@ -1,0 +1,92 @@
+        -:    0:Source:/mnt/c/Users/Laura/CLionProjects/lab_8-9/Validator.h
+        -:    0:Graph:/mnt/c/Users/Laura/CLionProjects/lab_8-9/cmake-build-debug-coverage/CMakeFiles/untitled.dir/UI.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Laura/CLionProjects/lab_8-9/cmake-build-debug-coverage/CMakeFiles/untitled.dir/UI.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Laura on 4/8/2022.
+        -:    3://
+        -:    4:#pragma once
+        -:    5:#ifndef UNTITLED_VALIDATOR_H
+        -:    6:#define UNTITLED_VALIDATOR_H
+        -:    7:
+        -:    8:
+        -:    9:
+        -:   10:#include "Entities.h"
+        -:   11:#include <vector>
+        -:   12:#include <string>
+        -:   13:using std::string;
+        -:   14:using std::vector;
+        -:   15:class ValidationExcep {
+        -:   16:    vector<string> errormsg;
+        -:   17:public:
+        -:   18:    ValidationExcep(vector<string> errorMessages) :errormsg{ errorMessages } {};
+        -:   19:
+function _ZN15ValidationExcep16getErrorMessagesB5cxx11Ev called 0 returned 0% blocks executed 0%
+    #####:   20:    string getErrorMessages() {
+    #####:   21:        string fullMsg = "";
+    %%%%%:   21-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   21-block  1
+call    4 never executed
+    #####:   22:        for (const string &e : errormsg) {
+call    0 never executed
+call    1 never executed
+    %%%%%:   22-block  0
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   22-block  1
+call    5 never executed
+    #####:   23:            fullMsg += e + "\n";
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   23-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   23-block  1
+call    6 never executed
+call    7 never executed
+    $$$$$:   23-block  2
+call    8 never executed
+    $$$$$:   23-block  3
+        -:   24:        }
+    #####:   25:        return fullMsg;
+    %%%%%:   25-block  0
+    %%%%%:   25-block  1
+        -:   26:    }
+        -:   27:};
+        -:   28:/*
+        -:   29:Clasa pentru validarea produselor
+        -:   30:Un produs este valid daca:
+        -:   31:	are tnumele format din mai mult de 2 caractere
+        -:   32:	are tip format din mai mult de 2 caractere
+        -:   33:	are producator format din mai mult de 2 caractere
+        -:   34:	pretul produsului >0
+        -:   35:*/
+        -:   36:class ProdValidator {
+        -:   37:
+        -:   38:public:
+        -:   39:    void valideaza(const Produs& p) {
+        -:   40:        vector<string> errors;
+        -:   41:        if (p.getNume().length() < 2)
+        -:   42:            errors.push_back("Numele trebuie sa aiba cel putin 2 caractere.");
+        -:   43:        if (p.getProd().length() < 2)
+        -:   44:            errors.push_back("Producatorul trebuie sa aiba cel putin 2 caractere.");
+        -:   45:        if (p.getPret() < 0)
+        -:   46:            errors.push_back("Pretul trebuie mai mare decat 0.");
+        -:   47:        if (p.getTip().length() < 2)
+        -:   48:            errors.push_back("Tipul trebuie sa aiba cel putin 2 caractere.");
+        -:   49:
+        -:   50:        if (errors.size() > 0)
+        -:   51:            throw ValidationExcep(errors);
+        -:   52:    }
+        -:   53:};
+        -:   54:
+        -:   55:
+        -:   56:
+        -:   57:#endif //UNTITLED_VALIDATOR_H

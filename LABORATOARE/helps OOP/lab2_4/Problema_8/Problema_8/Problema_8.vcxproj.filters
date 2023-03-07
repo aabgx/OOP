@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Service">
+      <UniqueIdentifier>{1091e23d-96e5-494b-9c1d-759d39c397f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{1c5c1250-bcb9-4283-b6b1-3adad9b8fea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Validator">
+      <UniqueIdentifier>{aa2f9df8-07d9-4416-8dec-170cb6ae4c69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Domain">
+      <UniqueIdentifier>{e53c69ac-063b-4ecf-b89f-a8b3ea1e8d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Teste">
+      <UniqueIdentifier>{eed2dad4-95ef-46ff-aba2-ba3b6e813d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Teste_h">
+      <UniqueIdentifier>{01b30ac6-59a1-4baf-91c3-af2942f66d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Service_h">
+      <UniqueIdentifier>{be3aef31-efc7-4721-90d9-99373df10bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Domain_h">
+      <UniqueIdentifier>{ef8a732d-e4af-4b30-8fef-9ee6fcbdbfe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI_h">
+      <UniqueIdentifier>{5a7f59ce-190c-491c-882c-145c24dec142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Validator_h">
+      <UniqueIdentifier>{c0ed2725-48b7-4fe1-aee9-8b5f9f2a1f67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.c">
+      <Filter>Source Files\Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="test_vector.c">
+      <Filter>Source Files\Teste</Filter>
+    </ClCompile>
+    <ClCompile Include="service.c">
+      <Filter>Source Files\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="test_service.c">
+      <Filter>Source Files\Teste</Filter>
+    </ClCompile>
+    <ClCompile Include="produs.c">
+      <Filter>Source Files\Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="test_produs.c">
+      <Filter>Source Files\Teste</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="produs.h">
+      <Filter>Header Files\Domain_h</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Header Files\Domain_h</Filter>
+    </ClInclude>
+    <ClInclude Include="service.h">
+      <Filter>Header Files\Service_h</Filter>
+    </ClInclude>
+    <ClInclude Include="test_vector.h">
+      <Filter>Header Files\Teste_h</Filter>
+    </ClInclude>
+    <ClInclude Include="test_service.h">
+      <Filter>Header Files\Teste_h</Filter>
+    </ClInclude>
+    <ClInclude Include="test_produs.h">
+      <Filter>Header Files\Teste_h</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

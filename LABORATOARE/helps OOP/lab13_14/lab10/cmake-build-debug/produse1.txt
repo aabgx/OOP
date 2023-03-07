@@ -1,0 +1,15 @@
+masca,cosmetic,the body shop,80.5
+paine,alimentar,vel pitar,2.8
+suc,alimentar,pepsi,5.8
+lapte,alimentar,covalact,8.6
+caiet,papetarie,herlitz,18
+parfum,cosmetic,zara,59
+ceas,accesoriu,charm,216
+cercei,accesoriu,charm,185
+cercei,accesoriu,pandora,185
+cereale,alimentar,nestle,896
+ceas,accesoriu,pandora,623
+apa,alimentar,dorna,5.3
+inel,accesoriu,pandora,450
+pastile,farmaceutic,alava,85
+pix,papetarie,herlitz,12

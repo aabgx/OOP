@@ -1,0 +1,184 @@
+        -:    0:Source:/mnt/c/Users/Laura/CLionProjects/lab_8-9/Service.h
+        -:    0:Graph:/mnt/c/Users/Laura/CLionProjects/lab_8-9/cmake-build-wsl_profile-coverage/CMakeFiles/untitled.dir/Service.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Laura/CLionProjects/lab_8-9/cmake-build-wsl_profile-coverage/CMakeFiles/untitled.dir/Service.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Laura on 4/8/2022.
+        -:    3://
+        -:    4:#pragma once
+        -:    5:#ifndef UNTITLED_SERVICE_H
+        -:    6:#define UNTITLED_SERVICE_H
+        -:    7:
+        -:    8:#include "Repository.h"
+        -:    9:#include "Validator.h"
+        -:   10:#include "CosProd.h"
+        -:   11:#include "DTO.h"
+        -:   12:#include <functional>
+        -:   13:#include <map>
+        -:   14:using std::map;
+        -:   15:using std::function;
+        -:   16:
+        -:   17:class ProdService {
+        -:   18:private:
+        -:   19:    ProdRepo& repo;
+        -:   20:    ProdValidator& val;
+        -:   21:
+        -:   22:    List currentlist;
+        -:   23:
+        -:   24:public:
+function _ZN11ProdServiceC2ER8ProdRepoR13ProdValidator called 0 returned 0% blocks executed 0%
+    #####:   25:    ProdService(ProdRepo& prodrepo, ProdValidator& val) :repo{ prodrepo }, val{ val }{} ;
+    %%%%%:   25-block  0
+call    0 never executed
+        -:   26:
+        -:   27:    //constructor de copiere
+        -:   28:    //punem delete fiindca nu vrem sa se faca nicio copie la Service
+        -:   29:    //(in aplicatie avem 1 singur Service)
+        -:   30:    ProdService(const ProdService& ot) = delete;
+        -:   31:
+        -:   32:    /*
+        -:   33:    Adauga un produs cu nume,tip,producator si pret
+        -:   34:    *@param nume: numele produsului care se adauga (string)
+        -:   35:    *@param tip: tipul produsului care se adauga (string)
+        -:   36:    *@param producator: producatorul produsului care se adauga (string)
+        -:   37:    *@param pret: pretul produsului care se adauga (double)
+        -:   38:    *
+        -:   39:    * @throws:
+        -:   40:    *	RepoException daca mai exista produs cu nume si producator dat
+        -:   41:    *	ValidationException daca prosusul nu este valid
+        -:   42:    */
+        -:   43:
+        -:   44:    void addservice(string nume, string tip, string producator, double pret);
+        -:   45:
+        -:   46:    /*
+        -:   47:    cauta un produs cu nume si producator dat
+        -:   48:    *@param nume: numele produsului  (string)
+        -:   49:    *@param producator: producatorul produsului  (string)
+        -:   50:    *return :produsul cautat
+        -:   51:    * @throws:
+        -:   52:    *	RepoException daca nu exista produs cu nume si producator dat
+        -:   53:    *	ValidationException daca prosusul nu este valid
+        -:   54:    */
+        -:   55:    Produs findservice(string nume, string producator);
+        -:   56:
+        -:   57:    /*
+        -:   58:    sterge un produs cu nume,tip,producator si pret
+        -:   59:    *@param nume: numele produsului care se sterge (string)
+        -:   60:    *@param tip: tipul produsului care se sterge (string)
+        -:   61:    *@param producator: producatorul produsului care se sterge (string)
+        -:   62:    *@param pret: pretul produsului care se sterge (double)
+        -:   63:    *
+        -:   64:    * @throws:
+        -:   65:    *	RepoException daca nu se gaseste in lista
+        -:   66:    *	ValidationException daca prosusul nu este valid
+        -:   67:    */
+        -:   68:    void dellservice(string nume, string tip, string producator, double pret);
+        -:   69:
+        -:   70:    /*
+        -:   71:    Modifica pretul unui produs un produs
+        -:   72:    *@param nume: numele produsului care se modifica(string)
+        -:   73:    *@param tip: tipul produsului care se modifica (string)
+        -:   74:    *@param producator: producatorul produsului care se modifica (string)
+        -:   75:    *@param pretnou: pretul nou al produsului
+        -:   76:    *
+        -:   77:    * @throws:
+        -:   78:    *	RepoException daca nu exista produs cu nume si producator dat
+        -:   79:    *	ValidationException daca produsul nu este valid(sau pretul nou)
+        -:   80:    */
+        -:   81:    void modifyservice(string nume, string tip, string producator, double pretnou);
+        -:   82:
+        -:   83:    vector<Produs> filter(function<bool(const Produs&)> fct);
+        -:   84:
+        -:   85:    /*Filtreaza produsele dupa un tip dat
+        -:   86:    param tip: tipul dupa care se doreste filtrarea
+        -:   87:    return :lista de cu obiecte de tip produs care au tipul dat*/
+        -:   88:    vector<Produs> filtreaza_tip(string tip);
+        -:   89:
+        -:   90:    /*Filtreaza produsele dupa un producator dat
+        -:   91:    param prod: producatorul dupa care se doreste filtrarea
+        -:   92:    return :lista de cu obiecte de tip produs care au producator dat*/
+        -:   93:    vector<Produs> filtreaza_prod(string prod);
+        -:   94:
+        -:   95:    /*Filtreaza produsele dupa un nume dat
+        -:   96:    param nume: numele dupa care se doreste filtrarea
+        -:   97:    return :lista de cu obiecte de tip produs care au numele dat*/
+        -:   98:    vector<Produs> filtreaza_nume(string nume);
+        -:   99:
+        -:  100:    /*
+        -:  101:     Functie de sortare generala
+        -:  102:     functie - functie de comparare, verifica daca are loc relatia intre cele 2 produse
+        -:  103:     returneaza o lista sortata dupa criteriu dat ca paramatru
+        -:  104:    */
+        -:  105:    vector<Produs> sortservice(int reverse,bool (*functie)( Produs&, Produs&));
+        -:  106:
+        -:  107:    /*
+        -:  108:    functie de sortare a produselor dupa nume
+        -:  109:    param reverse: 0-ordine crescatoare,1-descrescatoare*/
+        -:  110:    vector <Produs> sortnume(int reverse);
+        -:  111:
+        -:  112:    /*
+        -:  113:    functie de sortare a produselor dupa pret
+        -:  114:    param reverse: 0-ordine crescatoare,1-descrescatoare*/
+        -:  115:    vector<Produs> sortpret(int reverse);
+        -:  116:
+        -:  117:    vector<Produs> sortNumeTip(int reverse);
+        -:  118:
+        -:  119:    /*
+        -:  120:    Returneaza un vector cu toate produsele disponibile
+        -:  121:
+        -:  122:    @return: lista cu toate produsele disponibile (vector cu obiecte de tip produs)
+        -:  123:    */
+function _ZN11ProdService14getallproductsEv called 10 returned 100% blocks executed 100%
+       10:  124:    vector<Produs>& getallproducts() noexcept {
+       10:  125:        return this->repo.getallproducts();
+       10:  125-block  0
+call    0 returned 10
+        -:  126:    }
+        -:  127:
+        -:  128:
+        -:  129:
+        -:  130:
+        -:  131:    /*
+        -:  132:	* Adauga o un produs cu nume si producator dat in sos
+        -:  133:	*
+        -:  134:	* @param nume: numele produsului care se adauga (string)
+        -:  135:	* @param prod: producatorul produsului care se adauga (string)
+        -:  136:	*
+        -:  137:	* post: produsul este adaugata la lista
+        -:  138:	* @throws: RepoException daca nu exista produs cu numele si producatorul dat
+        -:  139:	*/
+        -:  140:    void addlistsrv(string nume, string produ);
+        -:  141:    /*
+        -:  142:    * Adauga un numar random de produse in cos
+        -:  143:    *
+        -:  144:    * @param howMany: cate produse se adauga (int)
+        -:  145:    *
+        -:  146:    * @return: numarul de produse adaugate in lista
+        -:  147:    * post: se adauga un numar random de produse in lista
+        -:  148:    */
+        -:  149:    int addrandomsrv(int howMany);
+        -:  150:    /*
+        -:  151:    * Elimina toate produsele din lista
+        -:  152:    * post: lista nu contine niciun produs
+        -:  153:    */
+        -:  154:    void emptylistsrv();
+        -:  155:    /*
+        -:  156:    * Returneaza un vector cu toate produsele din cos
+        -:  157:    */
+        -:  158:    const vector<Produs>& getallfromlistsrv();
+        -:  159:
+        -:  160:    map<string, DTO> get_dict();
+        -:  161:};
+        -:  162:
+        -:  163:void testeservice();
+        -:  164://void testaddservice();
+        -:  165://void testdellservice();
+        -:  166://void testmodifyservice();
+        -:  167://void testfind_filtreaza_service();
+        -:  168:
+        -:  169:
+        -:  170:
+        -:  171:
+        -:  172:
+        -:  173:
+        -:  174:#endif //UNTITLED_SERVICE_H

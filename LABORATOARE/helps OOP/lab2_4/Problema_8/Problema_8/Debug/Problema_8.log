@@ -1,0 +1,4 @@
+﻿  service.c
+D:\Sem_2\OOP\Laburi\LaLab_2_3_4\Problema_8\Problema_8\service.c(28,10): warning C4101: 'pr': unreferenced local variable
+D:\Sem_2\OOP\Laburi\LaLab_2_3_4\Problema_8\Problema_8\service.c(34): warning C4715: 'cautare_produs': not all control paths return a value
+  Problema_8.vcxproj -> D:\Sem_2\OOP\Laburi\LaLab_2_3_4\Problema_8\Debug\Problema_8.exe

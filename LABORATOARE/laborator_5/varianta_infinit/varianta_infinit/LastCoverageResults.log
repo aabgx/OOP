@@ -1,0 +1,21 @@
+[2022-03-25 13:59:53] [info] Start Program:
+Path:"C:\Users\andre\Desktop\OOP\LABORATOARE\laborator_5\varianta_infinit\varianta_infinit\x64\Debug\varianta_infinit.exe"
+Arguments:
+Working directory: "C:\Users\andre\Desktop\OOP\LABORATOARE\laborator_5\varianta_infinit\varianta_infinit"
+Modules: Selected: C:\Users\andre\Desktop\OOP\LABORATOARE\laborator_5\varianta_infinit\varianta_infinit\x64\Debug\varianta_infinit.exe Excluded: 
+Sources: Selected: C:\Users\andre\Desktop\OOP\LABORATOARE\laborator_5\varianta_infinit\varianta_infinit Excluded: ui.c 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\andre\AppData\Local\Temp\w1sdvark.30g 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-03-25 13:59:53] [info] Module: C:\Users\andre\Desktop\OOP\LABORATOARE\laborator_5\varianta_infinit\varianta_infinit\x64\Debug\varianta_infinit.exe is selected because it matches selected pattern: C:\Users\andre\Desktop\OOP\LABORATOARE\laborator_5\varianta_infinit\varianta_infinit\x64\Debug\varianta_infinit.exe
+[2022-03-25 13:59:55] [info] ----------------------------------------------------
+[2022-03-25 13:59:55] [info] Coverage binary generated in file: C:\Users\andre\AppData\Local\Temp\w1sdvark.30g
+[2022-03-25 13:59:55] [info] ----------------------------------------------------

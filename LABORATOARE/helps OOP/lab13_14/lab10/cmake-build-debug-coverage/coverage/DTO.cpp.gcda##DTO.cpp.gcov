@@ -1,0 +1,24 @@
+        -:    0:Source:/mnt/c/Users/Laura/CLionProjects/lab_8-9/DTO.cpp
+        -:    0:Graph:/mnt/c/Users/Laura/CLionProjects/lab_8-9/cmake-build-debug-coverage/CMakeFiles/untitled.dir/DTO.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Laura/CLionProjects/lab_8-9/cmake-build-debug-coverage/CMakeFiles/untitled.dir/DTO.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "DTO.h"
+        -:    2:#include "DTO.h"
+        -:    3:#include "Entities.h"
+        -:    4:
+function _ZN3DTO6getTipB5cxx11Ev called 1 returned 100% blocks executed 100%
+        1:    5:const string& DTO::getTip() noexcept {
+        1:    6:    return tip;
+        1:    6-block  0
+        -:    7:}
+        -:    8:
+function _ZN3DTO6get_nrEv called 1 returned 100% blocks executed 100%
+        1:    9:int DTO::get_nr() noexcept {
+        1:   10:    return nr;
+        1:   10-block  0
+        -:   11:}
+function _ZN3DTO4incrEv called 1 returned 100% blocks executed 100%
+        1:   12:void DTO::incr() noexcept {
+        1:   13:    nr++;
+        1:   14:}
+        -:   15:

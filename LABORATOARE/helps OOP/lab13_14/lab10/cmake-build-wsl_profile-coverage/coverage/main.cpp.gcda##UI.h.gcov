@@ -1,0 +1,40 @@
+        -:    0:Source:/mnt/c/Users/Laura/CLionProjects/lab_8-9/UI.h
+        -:    0:Graph:/mnt/c/Users/Laura/CLionProjects/lab_8-9/cmake-build-wsl_profile-coverage/CMakeFiles/untitled.dir/main.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Laura/CLionProjects/lab_8-9/cmake-build-wsl_profile-coverage/CMakeFiles/untitled.dir/main.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Laura on 4/8/2022.
+        -:    3://
+        -:    4:#pragma once
+        -:    5:#ifndef UNTITLED_UI_H
+        -:    6:#define UNTITLED_UI_H
+        -:    7:#include "Service.h"
+        -:    8:class ConsoleUI {
+        -:    9:private:
+        -:   10:    ProdService& srv;
+        -:   11:public:
+function _ZN9ConsoleUIC2ER11ProdService called 1 returned 100% blocks executed 100%
+        1:   12:    ConsoleUI(ProdService& srv) :srv{ srv } {};
+        -:   13:    ConsoleUI(const ConsoleUI& ot) = delete;
+        -:   14:    void printMenu();
+        -:   15:    void printListMenu();
+        -:   16:    void uiAdd();
+        -:   17:    void printAllProducts();
+        -:   18:    void uiFind();
+        -:   19:    void uiRandomize();
+        -:   20:    void uiDell();
+        -:   21:    void uiFiltreaza();
+        -:   22:    void uiModify();
+        -:   23:    void uiSort();
+        -:   24:    void uiDto();
+        -:   25:
+        -:   26:    void uiaddlist();
+        -:   27:    void uiaddrandomlist();
+        -:   28:    void uiemptylist();
+        -:   29:    void uiCos();
+        -:   30:    void printAllfromlist();
+        -:   31:    void run();
+        -:   32:};
+        -:   33:
+        -:   34:
+        -:   35:#endif //UNTITLED_UI_H

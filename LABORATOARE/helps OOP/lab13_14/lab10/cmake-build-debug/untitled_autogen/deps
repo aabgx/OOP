@@ -1,0 +1,123 @@
+untitled_autogen/timestamp: \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseArguments.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckCXXCompilerFlag.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckCXXSourceCompiles.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckIncludeFileCXX.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckLibraryExists.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindPackageMessage.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindThreads.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindVulkan.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Internal/CheckCompilerFlag.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake \
+	C:/Users/Laura/CLionProjects/lab10/CMakeLists.txt \
+	C:/Users/Laura/CLionProjects/lab10/CosCRUDGUI.cpp \
+	C:/Users/Laura/CLionProjects/lab10/CosCRUDGUI.h \
+	C:/Users/Laura/CLionProjects/lab10/CosProd.cpp \
+	C:/Users/Laura/CLionProjects/lab10/CosProd.h \
+	C:/Users/Laura/CLionProjects/lab10/CosREADONLYGUI.cpp \
+	C:/Users/Laura/CLionProjects/lab10/CosREADONLYGUI.h \
+	C:/Users/Laura/CLionProjects/lab10/DTO.cpp \
+	C:/Users/Laura/CLionProjects/lab10/DTO.h \
+	C:/Users/Laura/CLionProjects/lab10/Entities.cpp \
+	C:/Users/Laura/CLionProjects/lab10/Entities.h \
+	C:/Users/Laura/CLionProjects/lab10/GUIrezerva.cpp \
+	C:/Users/Laura/CLionProjects/lab10/GUIrezerva.h \
+	C:/Users/Laura/CLionProjects/lab10/Observer.h \
+	C:/Users/Laura/CLionProjects/lab10/Pet.cpp \
+	C:/Users/Laura/CLionProjects/lab10/Pet.h \
+	C:/Users/Laura/CLionProjects/lab10/Repository.cpp \
+	C:/Users/Laura/CLionProjects/lab10/Repository.h \
+	C:/Users/Laura/CLionProjects/lab10/Service.cpp \
+	C:/Users/Laura/CLionProjects/lab10/Service.h \
+	C:/Users/Laura/CLionProjects/lab10/UI.cpp \
+	C:/Users/Laura/CLionProjects/lab10/UI.h \
+	C:/Users/Laura/CLionProjects/lab10/Undo.cpp \
+	C:/Users/Laura/CLionProjects/lab10/Undo.h \
+	C:/Users/Laura/CLionProjects/lab10/Validator.h \
+	C:/Users/Laura/CLionProjects/lab10/VectorDinamicTemplate.h \
+	C:/Users/Laura/CLionProjects/lab10/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake \
+	C:/Users/Laura/CLionProjects/lab10/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake \
+	C:/Users/Laura/CLionProjects/lab10/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake \
+	C:/Users/Laura/CLionProjects/lab10/main.cpp \
+	C:/Users/Laura/CLionProjects/lab10/testall.h \
+	C:/Users/Laura/CLionProjects/lab10/unique_ptr.h \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6/Qt6Config.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6/Qt6Dependencies.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6/Qt6Targets.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6/QtFeature.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6/QtFeatureCommon.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6EntryPoint/Qt6EntryPointAdditionalTargetInfo.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6EntryPoint/Qt6EntryPointConfig.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6EntryPoint/Qt6EntryPointConfigVersion.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6EntryPoint/Qt6EntryPointTargets-relwithdebinfo.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6EntryPoint/Qt6EntryPointTargets.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6EntryPoint/Qt6EntryPointVersionlessTargets.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
+	D:/Qt/Qt6_DIR/mingw81_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2021.3.4/bin/cmake/win/bin/cmake.exe

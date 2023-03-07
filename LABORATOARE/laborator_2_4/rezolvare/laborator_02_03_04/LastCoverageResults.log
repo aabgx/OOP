@@ -1,0 +1,21 @@
+[2022-03-18 13:59:44] [info] Start Program:
+Path:"C:\Users\andre\Desktop\OOP\LABORATOARE\laborator_2_4\rezolvare\x64\Debug\laborator_02_03_04.exe"
+Arguments:
+Working directory: "C:\Users\andre\Desktop\OOP\LABORATOARE\laborator_2_4\rezolvare\laborator_02_03_04\"
+Modules: Selected: C:\Users\andre\Desktop\OOP\LABORATOARE\laborator_2_4\rezolvare\x64\Debug\laborator_02_03_04.exe Excluded: 
+Sources: Selected: C:\Users\andre\Desktop\OOP\LABORATOARE\laborator_2_4\rezolvare\laborator_02_03_04 Excluded: ui.c 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\andre\AppData\Local\Temp\fwby3nxu.bqs 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-03-18 13:59:44] [info] Module: C:\Users\andre\Desktop\OOP\LABORATOARE\laborator_2_4\rezolvare\x64\Debug\laborator_02_03_04.exe is selected because it matches selected pattern: C:\Users\andre\Desktop\OOP\LABORATOARE\laborator_2_4\rezolvare\x64\Debug\laborator_02_03_04.exe
+[2022-03-18 13:59:46] [info] ----------------------------------------------------
+[2022-03-18 13:59:46] [info] Coverage binary generated in file: C:\Users\andre\AppData\Local\Temp\fwby3nxu.bqs
+[2022-03-18 13:59:46] [info] ----------------------------------------------------

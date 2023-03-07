@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="untitled"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled">
+				<Option output="/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage/Makefile&quot;  VERBOSE=1 untitled"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled/fast">
+				<Option output="/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage/Makefile&quot;  VERBOSE=1 untitled/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Laura/CLionProjects/lab10/cmake-build-wsl_profile-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/Laura/CLionProjects/lab10/CosProd.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Laura/CLionProjects/lab10/CosProd.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Laura/CLionProjects/lab10/DTO.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Laura/CLionProjects/lab10/DTO.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Laura/CLionProjects/lab10/Entities.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Laura/CLionProjects/lab10/Entities.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Laura/CLionProjects/lab10/Pet.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Laura/CLionProjects/lab10/Pet.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Laura/CLionProjects/lab10/Repository.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Laura/CLionProjects/lab10/Repository.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Laura/CLionProjects/lab10/Service.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Laura/CLionProjects/lab10/Service.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Laura/CLionProjects/lab10/UI.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Laura/CLionProjects/lab10/UI.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Laura/CLionProjects/lab10/Undo.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Laura/CLionProjects/lab10/Undo.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Laura/CLionProjects/lab10/Validator.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Laura/CLionProjects/lab10/VectorDinamicTemplate.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Laura/CLionProjects/lab10/main.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Laura/CLionProjects/lab10/testall.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Laura/CLionProjects/lab10/unique_ptr.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Laura/CLionProjects/lab10/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

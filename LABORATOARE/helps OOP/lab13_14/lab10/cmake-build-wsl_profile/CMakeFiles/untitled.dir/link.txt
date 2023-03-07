@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -g CMakeFiles/untitled.dir/main.cpp.o CMakeFiles/untitled.dir/Pet.cpp.o CMakeFiles/untitled.dir/Repository.cpp.o CMakeFiles/untitled.dir/Service.cpp.o CMakeFiles/untitled.dir/UI.cpp.o CMakeFiles/untitled.dir/Entities.cpp.o CMakeFiles/untitled.dir/CosProd.cpp.o CMakeFiles/untitled.dir/DTO.cpp.o CMakeFiles/untitled.dir/Undo.cpp.o -o untitled 

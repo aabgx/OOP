@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\teste">
+      <UniqueIdentifier>{fa04ecba-7cf4-4b7a-a0c3-9437a2817061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\teste">
+      <UniqueIdentifier>{e2a3c2d0-229e-44f6-aac3-7e7f40ac9914}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="repo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="domain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="teste_domain.cpp">
+      <Filter>Source Files\teste</Filter>
+    </ClCompile>
+    <ClCompile Include="teste_repo.cpp">
+      <Filter>Source Files\teste</Filter>
+    </ClCompile>
+    <ClCompile Include="teste_service.cpp">
+      <Filter>Source Files\teste</Filter>
+    </ClCompile>
+    <ClCompile Include="teste_vector.cpp">
+      <Filter>Source Files\teste</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="domain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="repo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="service.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="teste_domain.h">
+      <Filter>Header Files\teste</Filter>
+    </ClInclude>
+    <ClInclude Include="teste_repo.h">
+      <Filter>Header Files\teste</Filter>
+    </ClInclude>
+    <ClInclude Include="teste_service.h">
+      <Filter>Header Files\teste</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_dinamic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="teste_vector.h">
+      <Filter>Header Files\teste</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

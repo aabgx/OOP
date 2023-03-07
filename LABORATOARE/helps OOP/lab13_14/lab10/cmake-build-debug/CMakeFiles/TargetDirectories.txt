@@ -1,0 +1,5 @@
+C:/Users/Laura/CLionProjects/lab10/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Laura/CLionProjects/lab10/cmake-build-debug/CMakeFiles/untitled.dir
+C:/Users/Laura/CLionProjects/lab10/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Laura/CLionProjects/lab10/cmake-build-debug/CMakeFiles/untitled_autogen_timestamp_deps.dir
+C:/Users/Laura/CLionProjects/lab10/cmake-build-debug/CMakeFiles/untitled_autogen.dir

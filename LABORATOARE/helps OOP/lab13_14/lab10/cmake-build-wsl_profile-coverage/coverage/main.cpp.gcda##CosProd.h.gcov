@@ -1,0 +1,56 @@
+        -:    0:Source:/mnt/c/Users/Laura/CLionProjects/lab_8-9/CosProd.h
+        -:    0:Graph:/mnt/c/Users/Laura/CLionProjects/lab_8-9/cmake-build-wsl_profile-coverage/CMakeFiles/untitled.dir/main.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Laura/CLionProjects/lab_8-9/cmake-build-wsl_profile-coverage/CMakeFiles/untitled.dir/main.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Laura on 4/13/2022.
+        -:    3://
+        -:    4:
+        -:    5:#ifndef UNTITLED_COSPROD_H
+        -:    6:#define UNTITLED_COSPROD_H
+        -:    7:
+        -:    8:#include "Entities.h"
+        -:    9:#include <vector>
+        -:   10:#include <algorithm>
+        -:   11:#include <random>    // std::default_random_engine
+        -:   12:#include <chrono>    // std::chrono::system_clock
+        -:   13:
+        -:   14:using std::vector;
+        -:   15:class List {
+        -:   16:private:
+        -:   17:    vector<Produs> listproducts;
+        -:   18:public:
+function _ZN4ListC2Ev called 8 returned 100% blocks executed 100%
+        8:   19:    List()=default;
+        8:   19-block  0
+call    0 returned 8
+        -:   20:    /*
+        -:   21:    * Adauga un produs in cos
+        -:   22:    * @param s: produsul care se adauga
+        -:   23:    *
+        -:   24:    * post: mprodusul va fi adaugat la lista
+        -:   25:    */
+        -:   26:    void addlist(const Produs& s);
+        -:   27:    /*
+        -:   28:    * Elimina toate produsele  din cos
+        -:   29:    * post: lista este goala
+        -:   30:    */
+        -:   31:    void emptylist();
+        -:   32:    /*
+        -:   33:    * Adauga un numar random de produse in cos
+        -:   34:    *
+        -:   35:    * @param originalprod: produsele din care se alege
+        -:   36:    * @param howMany: cate produse se adauga (int)
+        -:   37:    *
+        -:   38:    * post: produsele sunt adaugate in playlist-ul curent
+        -:   39:    */
+        -:   40:    void addrandomlist(vector<Produs> originalprod, size_t howMany);
+        -:   41:    /*
+        -:   42:    * Returneaza un vector care contine toate produsele din cos
+        -:   43:    */
+        -:   44:    const vector<Produs>& getallfromlist();
+        -:   45:
+        -:   46:};
+        -:   47:void testeCos();
+        -:   48:
+        -:   49:#endif //UNTITLED_COSPROD_H

@@ -1,0 +1,112 @@
+        -:    0:Source:/mnt/c/Users/Laura/CLionProjects/lab_8-9/Entities.h
+        -:    0:Graph:/mnt/c/Users/Laura/CLionProjects/lab_8-9/cmake-build-wsl_profile-coverage/CMakeFiles/untitled.dir/Repository.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Laura/CLionProjects/lab_8-9/cmake-build-wsl_profile-coverage/CMakeFiles/untitled.dir/Repository.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Laura on 4/8/2022.
+        -:    3://
+        -:    4:#pragma once
+        -:    5:#ifndef UNTITLED_ENTITIES_H
+        -:    6:#define UNTITLED_ENTITIES_H
+        -:    7:
+        -:    8:#include <string>
+        -:    9:#include <iostream>
+        -:   10:using std::string;
+        -:   11:using std::cout;
+        -:   12:using std::endl;
+function _ZN6ProdusaSERKS_ called 57 returned 100% blocks executed 100%
+       57:   13:class Produs {
+       57:   13-block  0
+call    0 returned 57
+call    1 returned 57
+call    2 returned 57
+        -:   14:private:
+        -:   15:    string nume;
+        -:   16:    string tip;
+        -:   17:    string producator;
+        -:   18:    double pret;
+        -:   19:public:
+        -:   20:    Produs() = default;
+function _ZN6ProdusC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_S5_d called 43 returned 100% blocks executed 62%
+       43:   21:    Produs(string nume, string tip, string producator, double pret) : nume{ nume }, tip{ tip }, producator{ producator }, pret{ pret }{};
+       43:   21-block  0
+call    0 returned 43
+call    1 returned 43
+branch  2 taken 43 (fallthrough)
+branch  3 taken 0 (throw)
+       43:   21-block  1
+call    4 returned 43
+branch  5 taken 43 (fallthrough)
+branch  6 taken 0 (throw)
+       43:   21-block  2
+    $$$$$:   21-block  3
+call    7 never executed
+    $$$$$:   21-block  4
+call    8 never executed
+function _ZN6ProdusC2ERKS_ called 137 returned 100% blocks executed 58%
+      137:   22:    Produs(const Produs& ot): nume{ ot.nume},tip{ot.tip},producator{ot.producator},pret{ot.pret}
+      137:   22-block  0
+call    0 returned 137
+call    1 returned 137
+branch  2 taken 137 (fallthrough)
+branch  3 taken 0 (throw)
+      137:   22-block  1
+call    4 returned 137
+branch  5 taken 137 (fallthrough)
+branch  6 taken 0 (throw)
+    $$$$$:   22-block  2
+call    7 never executed
+    $$$$$:   22-block  3
+call    8 never executed
+    $$$$$:   22-block  4
+call    9 never executed
+        -:   23:    { //this->nume=ot.nume;
+        -:   24:        //this->tip=ot.tip;
+        -:   25:        //this->producator=ot.producator;
+        -:   26:        //this->pret=ot.pret;
+      137:   27:        cout << "[Produs] Copy constructor called." << endl;
+      137:   27-block  0
+call    0 returned 137
+branch  1 taken 137 (fallthrough)
+branch  2 taken 0 (throw)
+      137:   27-block  1
+call    3 returned 137
+branch  4 taken 137 (fallthrough)
+branch  5 taken 0 (throw)
+      137:   28:    }
+      137:   28-block  0
+        -:   29:    Produs& operator=(const Produs& ot)=default;
+        -:   30:    string getNume() const;
+        -:   31:    string getTip() const;
+        -:   32:    string getProd() const;
+        -:   33:    double getPret() const noexcept;
+        -:   34:
+        -:   35:    void setPret(double pretnou) noexcept;
+        -:   36:
+        -:   37:};
+        -:   38:
+        -:   39:/*functie de comparare a numelor a 2 produse
+        -:   40:p1,p2-produsele de comparat valide
+        -:   41:post: de tip bool true/false
+        -:   42:*/
+        -:   43:bool cmpnume(  Produs& p1,  Produs& p2);
+        -:   44:
+        -:   45:/*functie de comparare a preturilor a 2 produse
+        -:   46:p1,p2-produsele de comparat valide
+        -:   47:post: de tip bool true/false
+        -:   48:*/
+        -:   49:bool cmppret( Produs& p1,  Produs& p2) noexcept;
+        -:   50:
+        -:   51:/*functie de comparare a tipului a 2 produse
+        -:   52:p1,p2-produsele de comparat valide
+        -:   53:post: de tip bool true/false
+        -:   54:*/
+        -:   55:bool cmptip( Produs& p1,  Produs& p2);
+        -:   56:
+        -:   57:bool cmpNumeTip(  Produs& m1,  Produs& m2);
+        -:   58:
+        -:   59:
+        -:   60:void testeEnt();
+        -:   61:void testecmp();
+        -:   62:
+        -:   63:#endif //UNTITLED_ENTITIES_H

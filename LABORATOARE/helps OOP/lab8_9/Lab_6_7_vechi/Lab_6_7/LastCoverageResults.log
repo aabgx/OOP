@@ -1,0 +1,22 @@
+[2022-04-06 12:45:04] [info] Start Program:
+Path:"D:\Sem_2\OOP\Laburi\Lab_6_7\x64\Debug\Lab_6_7.exe"
+Arguments:
+Working directory: "D:\Sem_2\OOP\Laburi\Lab_6_7\Lab_6_7\"
+Modules: Selected: D:\Sem_2\OOP\Laburi\Lab_6_7\x64\Debug\Lab_6_7.exe Excluded: 
+Sources: Selected: D:\Sem_2\OOP\Laburi\Lab_6_7\Lab_6_7 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\catal\AppData\Local\Temp\lem3wcbj.qj3 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-04-06 12:45:04] [info] Module: D:\Sem_2\OOP\Laburi\Lab_6_7\x64\Debug\Lab_6_7.exe is selected because it matches selected pattern: D:\Sem_2\OOP\Laburi\Lab_6_7\x64\Debug\Lab_6_7.exe
+ab_6_7.exe
+[2022-04-06 12:52:15] [info] ----------------------------------------------------
+[2022-04-06 12:52:15] [info] Coverage binary generated in file: C:\Users\catal\AppData\Local\Temp\twkytcvp.sp5
+[2022-04-06 12:52:15] [info] ----------------------------------------------------

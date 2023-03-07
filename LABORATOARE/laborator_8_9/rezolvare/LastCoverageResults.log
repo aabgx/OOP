@@ -1,0 +1,21 @@
+[2022-05-06 16:58:34] [info] Start Program:
+Path:"D:\an1_sem2\OOP\LABORATOARE\laborator_8_9\rezolvare\x64\Debug\rezolvare.exe"
+Arguments:
+Working directory: "D:\an1_sem2\OOP\LABORATOARE\laborator_8_9\rezolvare"
+Modules: Selected: D:\an1_sem2\OOP\LABORATOARE\laborator_8_9\rezolvare\x64\Debug\rezolvare.exe Excluded: 
+Sources: Selected: D:\an1_sem2\OOP\LABORATOARE\laborator_8_9\rezolvare Excluded: UI.cpp validator.h 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\andre\AppData\Local\Temp\pd4tt2n2.vtq 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-05-06 16:58:34] [info] Module: D:\an1_sem2\OOP\LABORATOARE\laborator_8_9\rezolvare\x64\Debug\rezolvare.exe is selected because it matches selected pattern: D:\an1_sem2\OOP\LABORATOARE\laborator_8_9\rezolvare\x64\Debug\rezolvare.exe
+[2022-05-06 16:58:45] [info] ----------------------------------------------------
+[2022-05-06 16:58:45] [info] Coverage binary generated in file: C:\Users\andre\AppData\Local\Temp\0cezpmu2.prx
+[2022-05-06 16:58:45] [info] ----------------------------------------------------

@@ -1,0 +1,21 @@
+[2022-04-07 13:26:47] [info] Start Program:
+Path:"D:\UBB INFO\An1 Sem2\OOP\Lab-uri\OOP-Lab6-7\x64\Debug\OOP-Lab6-7.exe"
+Arguments:
+Working directory: "D:\UBB INFO\An1 Sem2\OOP\Lab-uri\OOP-Lab6-7\OOP-Lab6-7\"
+Modules: Selected: D:\UBB INFO\An1 Sem2\OOP\Lab-uri\OOP-Lab6-7\x64\Debug\OOP-Lab6-7.exe Excluded: 
+Sources: Selected: D:\UBB INFO\An1 Sem2\OOP\Lab-uri\OOP-Lab6-7\OOP-Lab6-7 Excluded: UI.cpp 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Andrada\AppData\Local\Temp\w0usgomd.ynv 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-04-07 13:26:47] [info] Module: D:\UBB INFO\An1 Sem2\OOP\Lab-uri\OOP-Lab6-7\x64\Debug\OOP-Lab6-7.exe is selected because it matches selected pattern: D:\UBB INFO\An1 Sem2\OOP\Lab-uri\OOP-Lab6-7\x64\Debug\OOP-Lab6-7.exe
+[2022-04-07 13:26:50] [info] ----------------------------------------------------
+[2022-04-07 13:26:50] [info] Coverage binary generated in file: C:\Users\Andrada\AppData\Local\Temp\w0usgomd.ynv
+[2022-04-07 13:26:50] [info] ----------------------------------------------------

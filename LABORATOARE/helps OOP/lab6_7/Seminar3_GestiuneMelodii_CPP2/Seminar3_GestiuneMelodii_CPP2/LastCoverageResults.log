@@ -1,0 +1,21 @@
+[2022-04-04 17:16:03] [info] Start Program:
+Path:"C:\Users\Ana\source\repos\Seminar3_GestiuneMelodii_CPP2\Debug\Seminar3_GestiuneMelodii_CPP2.exe"
+Arguments:
+Working directory: "C:\Users\Ana\source\repos\Seminar3_GestiuneMelodii_CPP2\Seminar3_GestiuneMelodii_CPP2\"
+Modules: Selected: C:\Users\Ana\source\repos\Seminar3_GestiuneMelodii_CPP2\Debug\Seminar3_GestiuneMelodii_CPP2.exe Excluded: 
+Sources: Selected: C:\Users\Ana\source\repos\Seminar3_GestiuneMelodii_CPP2\Seminar3_GestiuneMelodii_CPP2 Excluded: UI.cpp main.cpp 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Ana\AppData\Local\Temp\cin3qlun.my2 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-04-04 17:16:03] [info] Module: C:\Users\Ana\source\repos\Seminar3_GestiuneMelodii_CPP2\Debug\Seminar3_GestiuneMelodii_CPP2.exe is selected because it matches selected pattern: C:\Users\Ana\source\repos\Seminar3_GestiuneMelodii_CPP2\Debug\Seminar3_GestiuneMelodii_CPP2.exe
+[2022-04-04 17:16:05] [info] ----------------------------------------------------
+[2022-04-04 17:16:05] [info] Coverage binary generated in file: C:\Users\Ana\AppData\Local\Temp\cin3qlun.my2
+[2022-04-04 17:16:05] [info] ----------------------------------------------------

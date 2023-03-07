@@ -1,0 +1,7 @@
+masca,cosmetic,the body shop,80.5
+paine,alimentar,vel pitar,2.8
+suc,alimentar,pepsi,5.8
+caiet,papetarie,herlitz,18
+parfum,cosmetic,zara,59,2
+ceas,accesoriu,charm,216
+cercei,accesoriu,charm,185

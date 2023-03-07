@@ -1,0 +1,28 @@
+        -:    0:Source:/mnt/c/Users/Laura/CLionProjects/lab_8-9/DTO.h
+        -:    0:Graph:/mnt/c/Users/Laura/CLionProjects/lab_8-9/cmake-build-wsl_profile-coverage/CMakeFiles/untitled.dir/Service.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Laura/CLionProjects/lab_8-9/cmake-build-wsl_profile-coverage/CMakeFiles/untitled.dir/Service.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#ifndef UNTITLED_DTO_H
+        -:    2:#define UNTITLED_DTO_H
+        -:    3:#include <string>
+        -:    4:using std::string;
+        -:    5:
+        -:    6:class DTO {
+        -:    7:private:
+        -:    8:    string tip;
+        -:    9:    int nr;
+        -:   10:public:
+function _ZN3DTOC2Ev called 0 returned 0% blocks executed 0%
+    #####:   11:    DTO() = default;
+    %%%%%:   11-block  0
+call    0 never executed
+function _ZN3DTOC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 0 returned 0% blocks executed 0%
+    #####:   12:    DTO(const string& p) :tip{ p }, nr{ 1 } {};
+    %%%%%:   12-block  0
+call    0 never executed
+        -:   13:    const string& getTip() noexcept;
+        -:   14:    int get_nr() noexcept;
+        -:   15:    void incr() noexcept;
+        -:   16:};
+        -:   17:
+        -:   18:#endif //UNTITLED_DTO_H

@@ -1,0 +1,36 @@
+"C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2021.3.4/bin/ninja/win/ninja.exe" -G Ninja C:\Users\Laura\CLionProjects\lab_8-9
+-- The C compiler identification is MSVC 19.31.31104.0
+-- The CXX compiler identification is MSVC 19.31.31104.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.31.31103/bin/Hostx86/x86/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.31.31103/bin/Hostx86/x86/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Laura/CLionProjects/lab_8-9/cmake-build-debug-visual-studio
+
+Cannot get compiler information:
+	Compiler exited with error code 2: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx86\x86\cl.exe" @C:\Users\Laura\AppData\Local\Temp\response-file9885124616513113113 C:\Users\Laura\AppData\Local\Temp\compiler-file14175303907342682853 | @response-file9885124616513113113=/TP /DWIN32 /D_WINDOWS /EHsc -Wall -Wextra /Zi /Ob0 /Od /RTC1 -MDd -std:c++14 /Be /Bd /EP
+	Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31104 for x86
+	Copyright (C) Microsoft Corporation.  All rights reserved.
+	
+	all:
+		@cd C:\Users\Laura\CLionProjects\lab_8-9\cmake-build-debug-visual-studio
+		@set INCLUDE=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.19041.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.19041.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.19041.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.19041.0\\cppwinrt
+		@set LIB=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\ATLMFC\lib\x86;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\lib\x86;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\lib\um\x86;C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\ucrt\x86;C:\Program Files (x86)\Windows Kits\10\\lib\10.0.19041.0\\um\x86
+		@set CL=
+		@set _CL_=
+		@set LINK=
+		C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx86\x86\cl.exe @<< C:\Users\Laura\AppData\Local\Temp\compiler-file14175303907342682853
+	/TP /DWIN32 /D_WINDOWS /EHsc -Wall -Wextra /Zi /Ob0 /Od /RTC1 -MDd -std:c++14 /Be /Bd /EP<<
+	
+	cl /TP /DWIN32 /D_WINDOWS /EHsc -Wall -Wextra /Zi /Ob0 /Od /RTC1 -MDd -std:c++14 /Be /Bd /EP
+	cl : Command line error D8021 : invalid numeric argument '/Wextra'
+	
+	
